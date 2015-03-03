@@ -37,7 +37,7 @@
 
 <div class="gap gap6em"></div>
 
-<section class="section skin-white section-rooms">
+<section class="section skin-white section-rooms section-bottom-line">
 	<div class="container-fluid section-rooms-container">
 		<div class="row">
 			<div class="col-md-7 skin-white-services">
@@ -50,7 +50,7 @@
 					  <li role="presentation" class="rooms-tabs"><a href="#rates" aria-controls="rates" role="tab" data-toggle="tab">rates</a></li>
 					</ul>
 
-					<div class="tab-content">
+					<div class="tab-content section-rooms-minimum">
 					  <div role="tabpanel" class="tab-pane active" id="facilities">
 					  	<div class="copy">
 					  		<p>

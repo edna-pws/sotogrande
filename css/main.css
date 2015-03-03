@@ -6261,6 +6261,10 @@ a:hover {
 .banner-promos {
   padding: 10px 100px;
 }
+.main-rooms {
+  letter-spacing: 16px;
+  width: 360px;
+}
 .btn {
   border-radius: 0;
   border: 0;
@@ -7433,6 +7437,9 @@ dd.p-0 {
   font-family: Proxima Nova !important;
   font-size: 14px !important;
 }
+.section-rooms-minimum {
+  min-height: 400px;
+}
 .title-reg {
   font-family: 'Proxima Nova';
 }
@@ -7495,7 +7502,7 @@ dd.p-0 {
   font-size: 22px;
   text-transform: uppercase;
   font-family: Proxima Nova Bold;
-  padding-bottom: 35px;
+  padding-bottom: 20px;
   color: #3e3e3e;
 }
 .promos-par {
@@ -7582,7 +7589,7 @@ dd.p-0 {
   border-bottom: 0px;
 }
 .meeting-col {
-  padding-top: 0px !important;
+  margin-top: 0px !important;
 }
 .promos-caption-header {
   font-size: 21px;
