@@ -298,6 +298,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/placeholder\/soto-promos_03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 117819,
+		"inputAbbreviatedPath": "\/images\/placeholder\/soto-promos_03.jpg",
+		"outputAbbreviatedPath": "\/images\/placeholder\/soto-promos_03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/placeholder\/soto-promos_05.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 134073,
+		"inputAbbreviatedPath": "\/images\/placeholder\/soto-promos_05.jpg",
+		"outputAbbreviatedPath": "\/images\/placeholder\/soto-promos_05.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/placeholder\/soto-promos_07.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 138649,
+		"inputAbbreviatedPath": "\/images\/placeholder\/soto-promos_07.jpg",
+		"outputAbbreviatedPath": "\/images\/placeholder\/soto-promos_07.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/soto-meeting&banquet.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1814,6 +1847,26 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/less\/layout\/home.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/less\/layout\/home.less",
+		"outputAbbreviatedPath": "\/less\/css\/home.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
 	"\/less\/main.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -2270,6 +2323,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/photos.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/photos.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/promos-single.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2422,7 +2484,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "PHILWEBSERIVICES Mac Mini  10",
+"lastSavedByUser": "Jrald B.",
 "manualImportLinks": {
 	},
 "projectAttributes": {

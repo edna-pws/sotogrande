@@ -6380,6 +6380,11 @@ a:hover {
   border-radius: 5px;
   margin-top: 60px;
 }
+.promos-btn {
+  font-size: 12px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
 .copy {
   margin: 1.5em 0 2em;
 }
@@ -7279,6 +7284,10 @@ dd.p-0 {
 .section-locations {
   width: 100%;
 }
+.promos {
+  width: 100%;
+  text-align: center;
+}
 .carousel-inner .banner-img img {
   width: 100%;
 }
@@ -7421,6 +7430,11 @@ dd.p-0 {
   width: 984px;
   padding-bottom: 60px;
 }
+.promos-header {
+  font-size: 22px!important;
+  font-family: 'Proxima Nova';
+  text-align: center;
+}
 .list-group {
   margin-bottom: 38px !important;
   padding: 0;
@@ -7474,3 +7488,4 @@ dd.p-0 {
   padding: 12px;
   width: auto;
 }
+/** Layout **/
