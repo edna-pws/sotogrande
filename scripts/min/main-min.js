@@ -7,6 +7,7 @@ var util = {
             var e = this;
             e.preloader();
             e.headerBannerLayout();
+            e.headerResize();
             e.showMap();
 
         },
@@ -19,7 +20,7 @@ var util = {
     
                 $(".home .l-banner").css("height", t);
 
-                var t = $(window).height() + "px";
+                   t = $(window).height() + "px";
 
                 // var newBannerHeight = $('.home .l-banner').height();
 
@@ -54,8 +55,25 @@ var util = {
 
 
         },
+        headerResize: function() {
+            function headerResize() {
+              var st = $(window).scrollTop(),
+                  set = 200;
+                  if (st > set) {
+                    $('.nav.navbar-nav').addClass('m1');
+                    $('.navbar-brand > img').addClass('img-small');
+                    $('.navbar-top').addClass('h70');
+                  } else {
+                    $('.nav.navbar-nav').removeClass('m1');
+                    $('.navbar-brand > img').removeClass('img-small');
+                    $('.navbar-top').removeClass('h70');
+                  }
+            }
+            $(window).on('scroll', headerResize);
 
-         preloader: function() {
+        },
+
+        preloader: function() {
 
             $('#status').fadeOut();
             $('#preloader').delay(350).fadeOut('slow');
