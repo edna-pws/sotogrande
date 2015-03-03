@@ -6988,17 +6988,17 @@ dd.p-0 {
   cursor: pointer;
 }
 .post:hover .post-heading {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 .post:hover .post-title {
   color: #0d3720;
 }
 .post:hover .post-wrapper {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 .post:hover .post-actions a {
   background: #4a8666;
-  color: #fff;
+  color: #ffffff;
   transition: all 0.8s;
 }
 .post-heading {
@@ -7012,12 +7012,12 @@ dd.p-0 {
   font-size: 16px;
   text-transform: uppercase;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
   transition: all 0.8s;
 }
 .post-wrapper {
   padding: 2em;
-  background-color: #eaecec;
+  background-color: #777777;
   border-bottom: 1px solid #e0e0e0;
   transition: all 0.8s;
 }
@@ -7083,7 +7083,7 @@ dd.p-0 {
 }
 .post-item .post-actions a:hover {
   background: #4a8666;
-  color: #fff;
+  color: #ffffff;
   border: 2px solid #28553d;
 }
 .post-item-secondary .post-name {
@@ -7116,7 +7116,7 @@ dd.p-0 {
   text-transform: uppercase;
 }
 .post-locations {
-  background: #fff;
+  background: #ffffff;
 }
 .skin-white {
   background: #fff;
