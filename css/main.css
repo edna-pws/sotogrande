@@ -6172,6 +6172,12 @@ button.close {
 .h70 {
   min-height: 70px !important;
 }
+.inline {
+  display: inline-block !important;
+}
+.m0 {
+  margin: 0 !important;
+}
 body {
   -webkit-font-smoothing: antialiased;
   -moz-webkit-font-smoothing: antialiased;
@@ -6979,9 +6985,11 @@ dd.p-0 {
   z-index: 10;
   margin-top: 0;
   background: rgba(0, 0, 0, 0.27);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .navbar-form-wrapper form {
-  width: 990px;
+  width: 1023px;
   margin: auto;
 }
 .navbar-form-wrapper .form-group {
@@ -6998,6 +7006,35 @@ dd.p-0 {
 .navbrand > img {
   display: block;
   transition: width 0.5s;
+}
+.form-date {
+  display: block;
+  width: 13%;
+  position: relative;
+  float: left;
+}
+.form-date .input-group-addon {
+  background-color: #ffffff;
+  border: 0;
+  border-radius: 0;
+}
+.form-date input {
+  border-right-width: 0;
+  min-height: 45px;
+}
+.custom-select {
+  width: 23% !important;
+  float: left;
+}
+.custom-select select {
+  min-height: 45px;
+}
+.form-group-action {
+  width: 16% !important;
+  float: left;
+}
+.form-group-action button {
+  min-height: 45px;
 }
 .post:hover {
   cursor: pointer;

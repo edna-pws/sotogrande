@@ -62,31 +62,35 @@
 
     <div class="navbar navbar-form-wrapper">
 	<form action="">
-		<div class="form-group form-date">
-			<input id="dp3"  class="input-date form-control" size="16" type="text" value="Check In">
+		<div class="form-group form-date m0">
+		  <div class="input-group">
+			  <input id="dp3"  class="input-date form-control" size="16" type="text" value="Check In">
+			  <div class="input-group-addon"><i class="fa fa-calendar fa-small"></i></div>
+		  </div>
 		</div>
-		<div class="form-group custom-select">
+
+		<div class="form-group custom-select m0">
 			<select name="" id="" class="form-control">
 				<option value="">1 Night</option>
 				<option value="">1</option>
 				<option value="">1</option>
 			</select>
 		</div>
-		<div class="form-group custom-select">
+		<div class="form-group custom-select m0">
 			<select name="" id="" class="form-control">
 				<option value="">1 Adult</option>
 				<option value="">1</option>
 				<option value="">1</option>
 			</select>
 		</div>
-		<div class="form-group custom-select">
+		<div class="form-group custom-select m0">
 			<select name="" id="" class="form-control">
 				<option value="">0 Children</option>
 				<option value="">1</option>
 				<option value="">1</option>
 			</select>
 		</div>
-		<div class="form-group form-group-action">
+		<div class="form-group form-group-action m0">
 			<button class="btn btn-green">Check Availability</button>
 		</div>
 	</form>
