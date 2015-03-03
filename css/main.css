@@ -6356,7 +6356,7 @@ a:hover {
   color: #28553d;
   text-transform: capitalize !important;
   padding: 0 !important;
-  margin: 0;
+  margin-bottom: 35px;
 }
 .post-viewmap:hover,
 .post-viewmap:focus {
@@ -6379,6 +6379,50 @@ a:hover {
   background: #4a8666;
   border-radius: 5px;
   margin-top: 60px;
+}
+.promos-btn {
+  font-size: 12px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background: #fff;
+  color: #7d7d7d;
+  border: #afafaf 2px solid;
+  margin-bottom: 0 !important;
+}
+.promos-btn:hover,
+.promos-btn:focus {
+  color: #fff !important;
+  background-color: #4a8666 !important;
+  border: #28553d 2px solid;
+}
+.promos-btn.active {
+  color: #fff !important;
+  background-color: #4a8666 !important;
+  border: #28553d 2px solid;
+}
+.avail-button {
+  background-color: #4a8666;
+  color: #fff;
+  border: #28553d 2px solid;
+}
+.avail-button:hover,
+.avail-button:focus {
+  color: #fff !important;
+  background-color: #28553d !important;
+  border: #eaecec 2px solid;
+}
+.single-button {
+  background-color: #4a8666;
+  color: #fff;
+  border: #28553d 2px solid;
+  padding: 5px 35px;
+  font-size: 16px;
+}
+.single-button:hover,
+.single-button:focus {
+  color: #fff !important;
+  background-color: #28553d !important;
+  border: #eaecec 2px solid;
 }
 .copy {
   margin: 1.5em 0 2em;
@@ -6832,6 +6876,9 @@ dd.p-0 {
 .gap-6em {
   height: 6em;
 }
+.gap-2em {
+  height: 0em;
+}
 .gap-10em {
   height: 10.2em;
 }
@@ -6886,6 +6933,14 @@ dd.p-0 {
 }
 .nav-tabs-primary .normal {
   background-color: #000 !important;
+}
+.services-icon {
+  color: #28553d;
+  margin-right: 15px;
+}
+.details-prop {
+  margin-bottom: 10px;
+  padding: 0;
 }
 .navbar {
   margin-bottom: 0;
@@ -7111,6 +7166,10 @@ dd.p-0 {
 .post-locations {
   background: #fff;
 }
+.avail-no-border {
+  border-bottom: none !important;
+  padding-bottom: 70px;
+}
 .skin-white {
   background: #fff;
 }
@@ -7279,6 +7338,23 @@ dd.p-0 {
 .section-locations {
   width: 100%;
 }
+.promos {
+  width: 100%;
+  text-align: center;
+}
+.section-rooms {
+  padding-bottom: 160px;
+}
+.section-rooms-container {
+  padding-left: 45px;
+}
+.section-meeting {
+  width: 100%;
+}
+.meeting-container {
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
 .carousel-inner .banner-img img {
   width: 100%;
 }
@@ -7322,6 +7398,9 @@ dd.p-0 {
   height: 22px;
   background-color: transparent;
   border: 3px solid #fff;
+}
+.promos-carousel {
+  background-color: gray;
 }
 .nav-tabs-primary {
   border-bottom: 0;
@@ -7415,11 +7494,21 @@ dd.p-0 {
   text-transform: uppercase;
   font-family: Proxima Nova Bold;
   padding-bottom: 35px;
+  color: #3e3e3e;
 }
 .promos-par {
   text-align: center;
   width: 984px;
-  padding-bottom: 60px;
+  margin: 0px 82px 60px;
+}
+.promos-header {
+  font-size: 22px!important;
+  font-family: 'Proxima Nova';
+  text-align: center;
+  padding-bottom: 45px;
+}
+.single-head2 {
+  text-transform: Capitalize;
 }
 .list-group {
   margin-bottom: 38px !important;
@@ -7468,9 +7557,78 @@ dd.p-0 {
 }
 .media-body {
   padding-left: 45px;
+  padding-bottom: 50px;
 }
 .media-object {
-  background: #eeeeee;
   padding: 12px;
   width: auto;
+}
+.section-media-space {
+  padding-left: 40px;
+}
+.meeting-no-space {
+  padding: 0px;
+}
+.meeting-with-space {
+  padding-bottom: 0px;
+}
+.media-par {
+  width: 56%;
+  line-height: 30px;
+}
+.meeting-no-border {
+  border-bottom: 0px;
+}
+.meeting-col {
+  padding-top: 0px !important;
+}
+.promos-caption-header {
+  font-size: 21px;
+}
+.promos-par2 {
+  font-size: 15px;
+  line-height: 25px;
+}
+.promos-list {
+  text-align: center;
+}
+.promos-thumbnail {
+  background: #eeeeee;
+}
+.promos-caption {
+  background: #fff;
+}
+.single-return {
+  text-align: center;
+  border: 0px;
+  width: 100%;
+  background: none;
+  font-size: 16px;
+  font-family: 'Proxima Nova';
+  color: #3e3e3e;
+  position: relative;
+  bottom: 35px;
+}
+.single-return:hover {
+  background: none;
+}
+.single-link-decor {
+  text-decoration: none !important;
+  color: #3e3e3e;
+}
+.single-link-decor:hover {
+  text-decoration: underline !important;
+  color: #fff;
+}
+.rooms-details {
+  padding-bottom: 20px;
+  margin-top: 30px;
+}
+.rooms-header {
+  font-size: 32px;
+  text-transform: uppercase;
+}
+.rooms-tabs {
+  width: 120px;
+  text-align: center;
 }
