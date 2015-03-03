@@ -1,0 +1,151 @@
+.post{
+	
+	&:hover{
+		border: 1px solid #e0e0e0;
+
+		.post-heading{
+			background-color: #fff;
+			border-bottom: 1px solid #e0e0e0;
+		}
+
+		.post-title{
+			color: #0d3720;
+		}
+
+		.post-wrapper{
+			background-color: #fff;
+		}
+
+		.post-actions{
+			a{
+				background: #4a8666;
+				color: #fff;
+				border: 2px solid #28553d;
+			}
+		}
+	}
+}
+
+.post-heading{
+	background: rgba(0,0,0,0.35);
+	padding: 10px;
+}
+
+.post-title{
+	.title-bold();
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
+
+.post-wrapper{
+	padding:2em;
+	background-color: #eaecec;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.post-body-title{
+	.title-bold();
+	font-size: 31px;
+	margin:20px 0;
+	color: #3e3e3e;
+}
+
+.post-wrapper-img{
+	/*width: 485px;*/
+	height: 240px;
+	margin:auto;
+	overflow: hidden;
+
+	img{
+		width:100%;
+	}
+}
+
+.post-content{
+	p{
+		line-height: 28px;
+	}
+}
+
+.post-actions{
+	.btn{
+		text-transform: uppercase;
+		border-radius:7px;
+	}
+}
+
+.post-item {
+	border-bottom: 1px solid #e0e0e0;
+  	padding: 50px 0;
+	.clearfix();
+
+	.post-img {
+	    border: 10px solid #eeeeee;
+	    width: 410px;
+	    min-width: 410px;
+	    height: 315px;
+	    min-height: 315px;
+
+	    img {
+		    width: 100%;
+		    height: 100%;
+		    max-width: 100%;
+	    }
+	}
+
+	span{
+		.title-bold;
+		color: #b93a40;
+		display: block;
+	}
+
+	.post-actions{
+		a{
+			&:hover{
+				background: #4a8666;
+				color: #fff;
+				border: 2px solid #28553d;
+			}
+		}
+	}
+}
+
+.post-item-secondary{
+	.post-name{
+		.title-reg();
+	}
+
+	h4{
+		.title-sbold();
+		text-transform: uppercase;
+		font-size: 15px;
+		color: #3e3e3e;
+	}
+
+}
+
+
+.post-name {
+	.title-bold;
+	margin: 0 0 10px;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.post-terms {
+	.title-sbold;
+	font-size: 15px;
+	color: #000;
+}
+.post-addinfo {
+	padding-top: 20px;
+	font-size: 15px;
+	margin-left: 10px;
+}
+.post-addinfo strong {
+	text-transform: uppercase;
+}
+.post-locations {
+	background: #fff;
+}
