@@ -6163,6 +6163,15 @@ button.close {
     display: none !important;
   }
 }
+.m1 {
+  margin: 1em !important;
+}
+.img-small {
+  width: 80% !important;
+}
+.h70 {
+  min-height: 70px !important;
+}
 body {
   -webkit-font-smoothing: antialiased;
   -moz-webkit-font-smoothing: antialiased;
@@ -6909,9 +6918,11 @@ dd.p-0 {
   border-radius: 0;
   border: 0;
   box-shadow: rgba(0, 0, 0, 0.37) 0 0px 5px;
+  transition: all 0.5s;
 }
 .navbar-nav {
   margin: 1.5em 0;
+  transition: all 0.5s;
 }
 .navbar-nav > li a {
   font-size: 14px;
@@ -6983,6 +6994,10 @@ dd.p-0 {
 }
 .contactform .nav-tabs-primary > li > a {
   color: #fff !important;
+}
+.navbrand > img {
+  display: block;
+  transition: width 0.5s;
 }
 .post:hover {
   cursor: pointer;
