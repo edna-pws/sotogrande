@@ -7017,7 +7017,8 @@ dd.p-0 {
 }
 .post-wrapper {
   padding: 2em;
-  background-color: #777777;
+  background-color: #eaecec;
+  border-top: 1px solid #e0e0e0;
   border-bottom: 1px solid #e0e0e0;
   transition: all 0.8s;
 }
