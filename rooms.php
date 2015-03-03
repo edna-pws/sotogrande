@@ -6,7 +6,7 @@
 	</div>
 </section>
 
-<section class="section-mainrooms">
+<section class="section-mainrooms section-bottom-line">
 	<div class="container">
 		<div class="section-mainrooms-copy">
 			<p class="copy-par1">
@@ -42,19 +42,19 @@
 			<div class="row">
 			  <div class="col-xs-6 col-md-3 mainrooms-max">
 			    <a href="#" class="thumbnail mainrooms-bg">
-			      <img src="images/placeholder/soto-rooms_03.jpg" alt="rooms">
+			      <img src="images/placeholder/soto-rooms_12.jpg" alt="rooms">
 			      <p class="rooms-caption">delux rooms</p>
 			    </a>
 			  </div>
 			  <div class="col-xs-6 col-md-3 mainrooms-max">
 			    <a href="#" class="thumbnail mainrooms-bg">
-			      <img src="images/placeholder/soto-rooms_05.jpg" alt="rooms">
+			      <img src="images/placeholder/soto-rooms_13.jpg" alt="rooms">
 			      <p class="rooms-caption">ellerman house suites</p>
 			    </a>
 			  </div>
 			  <div class="col-xs-6 col-md-3 mainrooms-max">
 			    <a href="#" class="thumbnail mainrooms-bg">
-			      <img src="images/placeholder/soto-rooms_07.jpg" alt="rooms">
+			      <img src="images/placeholder/soto-rooms_14.jpg" alt="rooms">
 			      <p class="rooms-caption">delux rooms</p>
 			    </a>
 			  </div>
@@ -62,19 +62,19 @@
 			<div class="row">
 			  <div class="col-xs-6 col-md-3 mainrooms-max">
 			    <a href="#" class="thumbnail mainrooms-bg">
-			      <img src="images/placeholder/soto-rooms_03.jpg" alt="rooms">
+			      <img src="images/placeholder/soto-rooms_19.jpg" alt="rooms">
 			      <p class="rooms-caption">superior rooms</p>
 			    </a>
 			  </div>
 			  <div class="col-xs-6 col-md-3 mainrooms-max">
 			    <a href="#" class="thumbnail mainrooms-bg">
-			      <img src="images/placeholder/soto-rooms_05.jpg" alt="rooms">
+			      <img src="images/placeholder/soto-rooms_20.jpg" alt="rooms">
 			      <p class="rooms-caption">classic rooms</p>
 			    </a>
 			  </div>
 			  <div class="col-xs-6 col-md-3 mainrooms-max">
 			    <a href="#" class="thumbnail mainrooms-bg">
-			      <img src="images/placeholder/soto-rooms_07.jpg" alt="rooms">
+			      <img src="images/placeholder/soto-rooms_22.jpg" alt="rooms">
 			      <p class="rooms-caption">superior rooms</p>
 			    </a>
 			  </div>
