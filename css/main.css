@@ -7012,6 +7012,7 @@ dd.p-0 {
   width: 13%;
   position: relative;
   float: left;
+  overflow: hidden;
 }
 .form-date .input-group-addon {
   background-color: #ffffff;
