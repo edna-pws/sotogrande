@@ -6885,6 +6885,7 @@ dd.p-0 {
 .gap {
   display: block;
   width: 100%;
+  margin-top: 164px;
 }
 .gap-6em {
   height: 6em;
@@ -7664,4 +7665,35 @@ dd.p-0 {
 }
 .mainrooms-max {
   width: 31%;
+}
+.copy-par1 {
+  padding: 0px 150px ;
+  font-size: 20px;
+}
+.copy-par2 {
+  padding: 0px 50px;
+  font-size: 17px;
+  margin: 45px 0px 90px 0px;
+}
+.mainrooms-bg {
+  background-color: #f6f6f6;
+  border-radius: 0px !important;
+  padding: 8px;
+  padding-bottom: 0px;
+}
+.rooms-caption {
+  background-color: #4a8666;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: 'huge_avant_gardebold';
+  font-weight: normal;
+  line-height: 48px;
+  letter-spacing: 7px;
+}
+.rooms-caption:hover,
+.rooms-caption:focus {
+  color: #fff;
+  background-color: #337351;
+  text-decoration: none !important;
 }
