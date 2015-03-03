@@ -6985,11 +6985,10 @@ dd.p-0 {
   color: #fff !important;
 }
 .post:hover {
-  border: 1px solid #e0e0e0;
+  cursor: pointer;
 }
 .post:hover .post-heading {
   background-color: #fff;
-  border-bottom: 1px solid #e0e0e0;
 }
 .post:hover .post-title {
   color: #0d3720;
@@ -7000,11 +6999,12 @@ dd.p-0 {
 .post:hover .post-actions a {
   background: #4a8666;
   color: #fff;
-  border: 2px solid #28553d;
+  transition: all 0.8s;
 }
 .post-heading {
   background: rgba(0, 0, 0, 0.35);
   padding: 10px;
+  transition: all 0.8s;
 }
 .post-title {
   font-family: 'Proxima Nova Bold';
@@ -7013,11 +7013,13 @@ dd.p-0 {
   text-transform: uppercase;
   text-align: center;
   color: #fff;
+  transition: all 0.8s;
 }
 .post-wrapper {
   padding: 2em;
   background-color: #eaecec;
   border-bottom: 1px solid #e0e0e0;
+  transition: all 0.8s;
 }
 .post-body-title {
   font-family: 'Proxima Nova Bold';
