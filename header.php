@@ -35,8 +35,8 @@
 
 	    <div class="collapse navbar-collapse" id="nav-collapse">
 	      <ul class="nav navbar-nav">
-	        <li><a href="#">rooms</a></li>
-	        <li><a href="#">meeting and banquet</a></li>
+	        <li><a href="rooms.php">rooms</a></li>
+	        <li><a href="meeting.php">meeting and banquet</a></li>
 	        <li class="dropdown">
 	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">properties <span class="caret"></span></a>
 	          <ul class="dropdown-menu dropdown-mega" role="menu">
@@ -45,14 +45,14 @@
 	            <li><a href="#">xxx</a></li>
 	          </ul>
 	        </li>
-	        <li><a href="#">promos</a></li>
+	        <li><a href="promos.php">promos</a></li>
 	      </ul>
 
 	      <ul class="nav navbar-nav navbar-right">
 	        <li><a href="photos.php">Photos</a></li>
 	        <li><a href="locations.php">Location</a></li>
-	        <li><a href="#">Subscribe</a></li>
-	        <li><a href="#">Contact</a></li>
+	        <li><a href="subscribe.php">Subscribe</a></li>
+	        <li><a href="contact.php">Contact</a></li>
 	        <li class="disabled">+63 32.238.6592</li>
 	      </ul>
 
