@@ -14,7 +14,7 @@
 			</div>
 			<div class="col-md-6">
 				<h2 class="post-name">SotoGrande Hotel and Resort</h2>
-				<div class="copy">
+				<div class="copy properties-justify">
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
 						commodo consequat.
@@ -35,7 +35,7 @@
 			</div>
 			<div class="col-md-6">
 				<h2 class="post-name">La Mirada Hotel</h2>
-				<div class="copy properties-copy">
+				<div class="copy properties-justify">
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
 						commodo consequat.
@@ -43,7 +43,7 @@
 				</div>
 				
 				<div class="post-actions">
-					<a href="#" class="active btn btn-default">view property</a>
+					<a href="#" class="btn btn-default avail-button-btn2 active">view property</a>
 				</div>
 			</div>
 		</div>
@@ -56,7 +56,7 @@
 			</div>
 			<div class="col-md-6">
 				<h2 class="post-name">Vista Mar Beach Resort and Country Club</h2>
-				<div class="copy">
+				<div class="copy properties-justify">
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
 						commodo consequat.
@@ -77,7 +77,7 @@
 			</div>
 			<div class="col-md-6">
 				<h2 class="post-name">La Breza Hotel</h2>
-				<div class="copy">
+				<div class="copy properties-justify">
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
 						commodo consequat.
@@ -97,7 +97,7 @@
 			</div>
 			<div class="col-md-6">
 				<h2 class="post-name">Stradella Hotel</h2>
-				<div class="copy">
+				<div class="copy properties-justify">
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
 						commodo consequat.

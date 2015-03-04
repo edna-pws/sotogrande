@@ -4,12 +4,11 @@
 	<div class="container bottom-gap">
 		<h2 class="section-title photos-header">photos</h2>
 		<div class="gap gap-3em"></div>
-	<div class="container section-photos-banner">
+	<div class="section-photos-banner">
   
     <!-- main slider carousel -->
     <div class="row">
         <div class="col-md-12" id="slider">
-            
                 <div class="col-md-12" id="carousel-bounding-box">
                     <div id="myCarousel" class="carousel slide">
                         <!-- main slider carousel items -->
@@ -18,24 +17,21 @@
                                 <img src="images/soto-photos-lg_03.jpg" class="img-responsive">
                             </div>
                             <div class="item" data-slide-number="1">
-                                <img src="images/banner-two.jpg" class="img-responsive">
+                                <img src="images/soto-photos-lg_04.jpg" class="img-responsive">
                             </div>
                             <div class="item" data-slide-number="2">
-                                <img src="" class="img-responsive">
+                                <img src="images/soto-photos-lg_03.jpg" class="img-responsive">
                             </div>
                             <div class="item" data-slide-number="3">
-                                <img src="" class="img-responsive">
+                                <img src="images/soto-photos-lg_03.jpg" class="img-responsive">
                             </div>
                             <div class="item" data-slide-number="4">
-                                <img src="" class="img-responsive">
+                                <img src="images/soto-photos-lg_03.jpg" class="img-responsive">
                             </div>
                             <div class="item" data-slide-number="5">
-                                <img src="" class="img-responsive">
+                                <img src="images/soto-photos-lg_03.jpg" class="img-responsive">
                             </div>
-                            <div class="item" data-slide-number="6">
-                                <img src="" class="img-responsive">
-                            </div>
-                            <div class="item" data-slide-number="7">
+                            <div class="item" data-slide-number="6.jpg" class="img-responsive">
                                 <img src="" class="img-responsive">
                             </div>
                         </div>

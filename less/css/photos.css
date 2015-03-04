@@ -1,3 +1,23 @@
-.photos-control {
+.section-photos-list {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  margin-left: 0px !important;
+}
+.photos-no-pad {
+  float: left;
+  clear: both;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.photos-control-left {
   background: #000;
+  width: 37px;
+  height: 37px;
+  top: 205px;
+}
+.photos-control-right {
+  background: #000 !important;
+  width: 37px !important;
+  height: 37px !important;
+  top: 205px !important;
 }
