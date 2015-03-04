@@ -1,6 +1,6 @@
 <?php include_once 'header.php'; ?>
 
-<section class="section skin-white section-list">
+<section class="section skin-white section-list section-bottom-line">
 	<div class="container">
 		<h2 class="section-title">Check Availability</h2>
 
@@ -27,7 +27,7 @@
 				</div>
 				
 				<div class="post-actions">
-					<a href="#" class="btn btn-default"> Book Now</a>
+					<a href="#" class="btn btn-default avail-button"> Book Now</a>
 				</div>
 			</div>
 		</div>
@@ -39,7 +39,7 @@
 				</div>
 			</div>
 			<div class="col-md-6">
-				<h2 class="post-name">Resort 2 queen beds</h2>
+				<h2 class="post-name">night rate</h2>
 				<div class="copy">
 					<p>
 						This medium-sized guestroom is located in the Victorian building, Ocean 
@@ -55,7 +55,7 @@
 				</div>
 				
 				<div class="post-actions">
-					<a href="#" class="btn btn-default"> Book Now</a>
+					<a href="#" class="btn btn-default avail-button"> Book Now</a>
 				</div>
 			</div>
 		</div>
@@ -67,7 +67,7 @@
 				</div>
 			</div>
 			<div class="col-md-6">
-				<h2 class="post-name">Resort 2 queen beds</h2>
+				<h2 class="post-name">JUNIOR SUITE 2 QUEEN BEDS</h2>
 				<div class="copy">
 					<p>
 						This medium-sized guestroom is located in the Victorian building, Ocean 
@@ -83,19 +83,19 @@
 				</div>
 				
 				<div class="post-actions">
-					<a href="#" class="btn btn-default"> Book Now</a>
+					<a href="#" class="btn btn-default avail-button"> Book Now</a>
 				</div>
 			</div>
 		</div>
 
-		<div class="post-block post-item">
+		<div class="post-block post-item avail-no-border">
 			<div class="col-md-5">
 				<div class="post-img">
 					<img src="images/placeholder/post1.jpg" alt="">
 				</div>
 			</div>
 			<div class="col-md-6">
-				<h2 class="post-name">Resort 2 queen beds</h2>
+				<h2 class="post-name">Bed &amp; Breakfast</h2>
 				<div class="copy">
 					<p>
 						This medium-sized guestroom is located in the Victorian building, Ocean 
@@ -111,7 +111,7 @@
 				</div>
 				
 				<div class="post-actions">
-					<a href="#" class="btn btn-default"> Book Now</a>
+					<a href="#" class="btn btn-default avail-button"> Book Now</a>
 				</div>
 			</div>
 		</div>

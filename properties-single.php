@@ -100,19 +100,23 @@
 					<p class="col-md-4-par">Dapdap, Mactan Island, Lapu-Lapu City, Cebu, Philippines</p>
 					<a href="#" class="btn btn-green">View Floor Plan</a>
 					 <ul class="list-group">
-					    <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
-					    <li class="list-group-item">Dolor consectetur elit.</li>
-					    <li class="list-group-item">Duis aute irure dolor in reprehenderit.</li>
-					    <li class="list-group-item">Excepteur sint occaecat cupidatat.</li>
-					    <li class="list-group-item">Sed ut perspiciatis unde omnis. </li>
-					    <li class="list-group-item">Duis aute irure dolor in reprehenderit.</li>
-					    <li class="list-group-item">Voluptatem accusantium doloremque. </li>
-					    <li class="list-group-item">Dolor consectetur elit. </li>
-					    <li class="list-group-item">Voluptatem accusantium doloremque. </li>
+					    <li class="list-group-item details-prop"><span class="glyphicon glyphicon-ok services-icon" aria-hidden="true"></span> Lorem ipsum dolor sit amet.</li>
+					    <li class="list-group-item details-prop"><span class="glyphicon glyphicon-ok services-icon" aria-hidden="true"></span>Dolor consectetur elit.</li>
+					    <li class="list-group-item details-prop"><span class="glyphicon glyphicon-ok services-icon" aria-hidden="true"></span>Duis aute irure dolor in reprehenderit.</li>
+					    <li class="list-group-item details-prop"><span class="glyphicon glyphicon-ok services-icon" aria-hidden="true"></span>Excepteur sint occaecat cupidatat.</li>
+					    <li class="list-group-item details-prop"><span class="glyphicon glyphicon-ok services-icon" aria-hidden="true"></span>Sed ut perspiciatis unde omnis. </li>
+					    <li class="list-group-item details-prop"><span class="glyphicon glyphicon-ok services-icon" aria-hidden="true"></span>Duis aute irure dolor in reprehenderit.</li>
+					    <li class="list-group-item details-prop"><span class="glyphicon glyphicon-ok services-icon" aria-hidden="true"></span>Voluptatem accusantium doloremque. </li>
+					    <li class="list-group-item details-prop"><span class="glyphicon glyphicon-ok services-icon" aria-hidden="true"></span>Dolor consectetur elit. </li>
+					    <li class="list-group-item details-prop"><span class="glyphicon glyphicon-ok services-icon" aria-hidden="true"></span>Voluptatem accusantium doloremque. </li>
 					 </ul>
 						 <button type="button" class="btn btn-default btn-lg post-viewmap" href="#">
 						  <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> View Google Map
 						</button>
+
+						<div class="post-actions">
+							<a href="#" class="btn btn-default single-button"> Book Now</a>
+						</div>
 
 			</div>
 		</div>
