@@ -35,7 +35,7 @@
 			</div>
 			<div class="col-md-6">
 				<h2 class="post-name">La Mirada Hotel</h2>
-				<div class="copy">
+				<div class="copy properties-copy">
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
 						commodo consequat.

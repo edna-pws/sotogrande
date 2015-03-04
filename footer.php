@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-<section class="section section-footer">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-sm-12 col-md-4">
-				<div class="footer-location">
-					<h4 class="footer-title">SotoGrande</h4>
-					<p>Dapdap, Mactan Island, Lapu-Lapu City,</p>
-					<p>Cebu, Philippines</p>
-					<p class="footer-phone">Phone: +63032 238 6590</p>
-=======
 	<section class="section section-footer">
 		<div class="container-lg">
 			<div class="row">
@@ -18,7 +7,6 @@
 						<p>Dapdap, Mactan Island, Lapu-Lapu City,</p>
 						<p>Cebu, Philippines</p>
 					</div>
->>>>>>> origin/master
 				</div>
 
 				<div class="col-sm-12 col-md-8">
