@@ -6,16 +6,16 @@
 	</div>
 </section>
 <div class="section-meeting section-bottom-line">
-	<div class="container-fluid meeting-container">
+	<div class="container">
 		<section class="section skin-white section-list meeting-with-space">
 		<div class="post-block post-item">
 				<div class="row">
-					<div class="col-md-3 section-media-space">
+					<div class="col-md-5 section-media-space">
 						<div class="post-img">
 							<img src="images/img6.jpg" alt="">
 						</div>
 					</div>
-					<div class="col-md-9 media meeting-col">
+					<div class="col-md-7 media meeting-col">
 						<h4 class="media-heading">Grand Coral Ballroom</h4>
 						<div class="media-par">
 							<p>
@@ -34,12 +34,12 @@
 		<section class="section skin-white section-list meeting-no-space">
 		<div class="post-block post-item meeting-no-border">
 				<div class="row">
-					<div class="col-md-3 section-media-space">
+					<div class="col-md-5 section-media-space">
 						<div class="post-img">
 							<img src="images/img6.jpg" alt="">
 						</div>
 					</div>
-					<div class="col-md-9 media">
+					<div class="col-md-7 media">
 						<h4 class="media-heading">banquet foods &amp; arrangements</h4>
 						<div class="media-par">
 							<p>
