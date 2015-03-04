@@ -65,8 +65,8 @@
 				<p class="col-md-5-header-par"><strong>bannquet sales</strong>
 					<br /><span class="col-md-5-header-pars">+ 63 32.266.4589</span>
 				</p>
-				<p class="col-md-5-header-par"><strong>email add</strong>
-					<br /><span class="col-md-5-header-pars">info@sotograndehotelresort.com</span>
+				<p class="col-md-5-header-par"><strong class="email-marg">email add</strong>
+					<br /><span class="col-md-5-header-pars email-height">info@sotograndehotelresort.com</span>
 					<br />reservations@sotograndehotelresort.com
 				</p>
 				<button type="button" class="btn btn-default btn-lg post-viewmap" href="#">

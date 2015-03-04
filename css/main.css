@@ -6380,6 +6380,7 @@ a:hover {
   text-transform: capitalize !important;
   padding: 0 !important;
   margin-bottom: 35px;
+  margin-top: 20px !important;
 }
 .post-viewmap:hover,
 .post-viewmap:focus {
@@ -6470,6 +6471,8 @@ a:hover {
 }
 .copy {
   margin: 1.5em 0 2em;
+  font-size: 16px;
+  font-weight: bold;
 }
 .copy p {
   line-height: 28px;
@@ -6872,7 +6875,7 @@ footer:after {
   height: 45px;
 }
 .submit {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 .country {
   color: #a4a4a4;
@@ -7008,12 +7011,26 @@ dd.p-0 {
   padding-bottom: 121px;
 }
 .contact-form-margin {
-  margin-right: 24px;
+  margin-right: 40px;
+}
+.email-height {
+  line-height: 20px !important;
+}
+.email-marg {
+  padding-bottom: 5px !important;
 }
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
   background-color: transparent;
+}
+.navbar .navbar-nav.navbar-right li,
+.navbar .navbar-nav li {
+  margin-right: 10px;
+}
+.navbar .navbar-nav.navbar-right a,
+.navbar .navbar-nav a {
+  font-weight: bold;
 }
 .navbar-fixed-top {
   border: 0;
@@ -7022,8 +7039,8 @@ dd.p-0 {
   min-height: 95px;
   background-color: #fff;
   margin-bottom: 0;
-  padding-left: 0em;
-  padding-right: 1.5em;
+  padding-left: 65px;
+  padding-right: 75px;
   border-radius: 0;
   border: 0;
   box-shadow: rgba(0, 0, 0, 0.37) 0 0px 5px;
@@ -7095,6 +7112,22 @@ dd.p-0 {
   width: 1023px;
   margin: auto;
 }
+.navbar-form-wrapper form:before,
+.navbar-form-wrapper form:after {
+  content: " ";
+  display: table;
+}
+.navbar-form-wrapper form:after {
+  clear: both;
+}
+.navbar-form-wrapper form:before,
+.navbar-form-wrapper form:after {
+  content: " ";
+  display: table;
+}
+.navbar-form-wrapper form:after {
+  clear: both;
+}
 .navbar-form-wrapper .form-group {
   margin: 13px 0px;
   display: inline-block;
@@ -7140,6 +7173,10 @@ dd.p-0 {
 .form-group-action button {
   min-height: 45px;
 }
+.img-camera {
+  display: inline-block;
+  padding-bottom: 6px;
+}
 .post:hover {
   cursor: pointer;
 }
@@ -7182,7 +7219,8 @@ dd.p-0 {
 .post-body-title {
   font-family: 'Proxima Nova Bold';
   font-size: 31px;
-  margin: 20px 0;
+  margin-top: 33px;
+  margin-bottom: 25px;
   color: #3e3e3e;
 }
 .post-wrapper-img {
@@ -7269,6 +7307,8 @@ dd.p-0 {
   padding-top: 20px;
   font-size: 15px;
   margin-left: 10px;
+  letter-spacing: 1px;
+  width: 44.666667% !important;
 }
 .post-addinfo strong {
   text-transform: uppercase;
@@ -7329,6 +7369,11 @@ dd.p-0 {
   .section-about .copy {
     width: 100%;
   }
+}
+.section-photos {
+  background: #fff;
+  width: 100%;
+  padding: 46px 46px 76px 46px;
 }
 .section-horizontal-gallery {
   list-style: none;
@@ -7589,7 +7634,7 @@ dd.p-0 {
 }
 .col-md-5-header-par {
   padding-bottom: 5px;
-  padding-top: 5px;
+  padding-top: 4px;
 }
 .post-locations-header {
   font-size: 18px;
