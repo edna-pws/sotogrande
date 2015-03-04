@@ -4,6 +4,6 @@
 
 - rooms.php : text-decoration
 
-- Fixed Promos
-
 - Fixed Subscribe
+
+- Fixed Homepage HERO Slider
