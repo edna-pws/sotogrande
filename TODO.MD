@@ -1,5 +1,9 @@
 /** TODO LIST **/
 
-- fixed booking form checkin input
+- Fixed booking form checkin input
 
 - rooms.php : text-decoration
+
+- Fixed Promos
+
+- Fixed Subscribe
