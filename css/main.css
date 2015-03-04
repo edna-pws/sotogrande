@@ -6983,16 +6983,12 @@ dd.p-0 {
   font-size: 18px;
   padding: 10px 15px;
   -webkit-transition: .2s linear all;
-<<<<<<< HEAD
-  transition: .2s linear all;
-=======
           transition: .2s linear all;
 }
 .mapLegend li .fa-map-marker {
   color: #28553d;
   fonst-size: 25px;
   padding-right: 16px;
->>>>>>> origin/master
 }
 .mapLegend li:hover {
   cursor: pointer;
