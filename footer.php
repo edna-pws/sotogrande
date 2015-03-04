@@ -1,14 +1,3 @@
-
-	<section class="section section-footer">
-		<div class="container-lg">
-			<div class="row">
-				<div class="col-sm-12 col-md-4">
-					<div class="footer-location">
-						<h4 class="footer-title">SotoGrande</h4>
-						<p>Dapdap, Mactan Island, Lapu-Lapu City,</p>
-						<p>Cebu, Philippines</p>
-					</div>
-
 <section class="section section-footer">
 	<div class="container-lg">
 		<div class="row">

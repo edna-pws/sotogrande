@@ -6466,6 +6466,11 @@ a:hover {
   padding: 10px 45px;
   letter-spacing: 2px;
 }
+.avail-button-btn2.active {
+  color: #fff !important;
+  background-color: #4a8666 !important;
+  border: #eaecec 2px solid;
+}
 .copy {
   margin: 1.5em 0 2em;
   font-size: 16px;
@@ -7532,6 +7537,11 @@ dd.p-0 {
   text-align: center;
   padding: 95px 0px 183px 0px;
 }
+.section-photos-banner {
+  padding: 45px;
+  background: #fff;
+  width: 100%;
+}
 .carousel-inner .banner-img img {
   width: 100%;
 }
@@ -7707,6 +7717,9 @@ dd.p-0 {
 }
 .properties-body p {
   text-align: justify!important;
+}
+.properties-justify p {
+  text-align: justify ;
 }
 .list-group {
   margin-bottom: 38px !important;
@@ -7924,4 +7937,44 @@ dd.p-0 {
   color: #fff;
   background-color: #337351;
   text-decoration: none !important;
+}
+.section-photos-list {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  margin-left: 0px !important;
+}
+.photos-no-pad {
+  clear: both;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.photos-control-left {
+  background: #000;
+  width: 37px;
+  height: 37px;
+  top: 205px;
+  left: 11px;
+}
+.photos-control-right {
+  background: #000 !important;
+  width: 37px !important;
+  height: 37px !important;
+  top: 205px !important;
+  margin-right: 14px !important;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%;
+  border: #f6f6f6 11px solid;
+  box-shadow: 0 0 5px 5px #d5d5d5;
+}
+.section-photos-list {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: #dbdbdb 3px solid;
+}
+.section-photo-par {
+  padding: 0px 21px;
+  margin-bottom: 20px;
+  line-height: 28px;
 }
