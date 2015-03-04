@@ -6447,6 +6447,27 @@ a:hover {
   background-color: #28553d !important;
   border: #eaecec 2px solid;
 }
+.meeting-view {
+  display: block;
+  text-align: center;
+  width: 180px;
+  background: #ffffff;
+  border-radius: 5px;
+  margin-top: 45px;
+  color: #7d7d7d;
+  letter-spacing: 3px;
+}
+.meeting-view:hover,
+.meeting-view:focus {
+  color: #fff !important;
+  background-color: #4a8666 !important;
+  border: #eaecec 2px solid;
+}
+.meeting-view.active {
+  color: #fff !important;
+  background-color: #4a8666 !important;
+  border: #eaecec 2px solid;
+}
 .copy {
   margin: 1.5em 0 2em;
 }
@@ -6973,6 +6994,9 @@ dd.p-0 {
 }
 .skin-gap {
   margin-top: 145px;
+}
+.bottom-gap {
+  padding-bottom: 121px;
 }
 .navbar {
   margin-bottom: 0;

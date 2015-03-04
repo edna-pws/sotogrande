@@ -5,7 +5,7 @@
 		<h3 class="banner-subtitle">meeting and banquet</h3>
 	</div>
 </section>
-<div class="section-meeting section-bottom-line">
+<div class="section-meeting section-bottom-line bottom-gap">
 	<div class="container">
 		<section class="section skin-white section-list meeting-with-space">
 		<div class="post-block post-item">
@@ -25,7 +25,7 @@
 						</div>
 						
 						<div class="post-actions">
-							<a href="#" class="btn btn-default media-view">View More</a>
+							<a href="#" class="btn btn-default meeting-view active">View More</a>
 						</div>
 					</div>
 				</div>
@@ -49,7 +49,7 @@
 						</div>
 						
 						<div class="post-actions">
-							<a href="#" class="btn btn-default media-view">View More</a>
+							<a href="#" class="btn btn-default meeting-view">View More</a>
 						</div>
 					</div>
 				</div>
