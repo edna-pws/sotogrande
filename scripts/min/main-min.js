@@ -8,6 +8,7 @@ var util = {
             e.preloader();
             e.headerBannerLayout();
             e.headerResize();
+            e.owlSlider();
             e.showMap();
 
         },
@@ -79,6 +80,11 @@ var util = {
             $('#preloader').delay(350).fadeOut('slow');
             $('body').delay(350).css({'overflow':'visible'}); 
 
+        },
+        owlSlider: function() {
+            $("#carousel-promo").owlCarousel({
+                jsonPath : "../json/promos.json"
+            });
         },
 
         showMap: function() {

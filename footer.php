@@ -65,13 +65,18 @@
 	 -->
 	<script src="scripts/bootstrap-datepicker.js"></script>
 	<script src="scripts/main.js"></script>
-	<script src="assets/owl-carousel/owl.carousel.js"></script>
+	<script src="owl-carousel/owl.carousel.js"></script>
 	<script>
 		$(function(){
 			$('#dp3').datepicker({
 				format: 'mm-dd-yyyy'
 			});
 		});
+		$("#carousel-promo").owlCarousel({
+            items: 3,
+            addClassActive: true,
+            scrollPerPage: false
+        });
 	</script>
 </body>
 </html>
