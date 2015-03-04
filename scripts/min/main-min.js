@@ -83,7 +83,8 @@ var util = {
         },
         owlSlider: function() {
             $("#carousel-promo").owlCarousel({
-                jsonPath : "../json/promos.json"
+                items: 3,
+                addClassActive: true
             });
         },
 

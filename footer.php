@@ -72,11 +72,6 @@
 				format: 'mm-dd-yyyy'
 			});
 		});
-		$("#carousel-promo").owlCarousel({
-            items: 3,
-            addClassActive: true,
-            scrollPerPage: false
-        });
 	</script>
 </body>
 </html>
