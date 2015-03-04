@@ -91,7 +91,7 @@
 			</select>
 		</div>
 		<div class="form-group form-group-action m0">
-			<button class="btn btn-green">Check Availability</button>
+			<button class="btn btn-green">Check Availability</button></a>
 		</div>
 	</form>
 </div>

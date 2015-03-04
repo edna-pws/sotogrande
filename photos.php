@@ -13,12 +13,12 @@
                 <div class="col-md-12" id="carousel-bounding-box">
                     <div id="myCarousel" class="carousel slide">
                         <!-- main slider carousel items -->
-                        <div class="carousel-inner">
-                            <div class="active item section-photos-img-border" data-slide-number="0">
+                        <div class="carousel-inner section-photos-img-border">
+                            <div class="active item" data-slide-number="0">
                                 <img src="images/soto-photos-lg_03.jpg" class="img-responsive">
                             </div>
                             <div class="item" data-slide-number="1">
-                                <img src="images/soto-photos-lg_03.jpg" class="img-responsive">
+                                <img src="images/banner-two.jpg" class="img-responsive">
                             </div>
                             <div class="item" data-slide-number="2">
                                 <img src="" class="img-responsive">
@@ -54,26 +54,33 @@
         <div class="col-md-12 hidden-sm hidden-xs photos-indicator-border" id="slider-thumbs">
             
                 <!-- thumb navigation carousel items -->
-              <ul class="list-inline">
-                  <li class="photos-no-pad"> <a id="carousel-selector-0" class="selected">
+              <ul class="list-inline section-photos-list">
+                  <li class="photos-no-pad"> 
+                  <a id="carousel-selector-0">
                     <img src="images/placeholder/soto-photos-small_03.jpg" class="img-responsive">
                   </a></li>
-                  <li class="photos-no-pad"> <a id="carousel-selector-1">
+                  <li class="photos-no-pad"> 
+                    <a id="carousel-selector-1">
                     <img src="images/placeholder/soto-photos-small_04.jpg" class="img-responsive">
                   </a></li>
-                  <li class="photos-no-pad"> <a id="carousel-selector-2">
+                  <li class="photos-no-pad"> 
+                    <a id="carousel-selector-2">
                     <img src="images/placeholder/soto-photos-small_05.jpg" class="img-responsive">
                   </a></li>
-                  <li class="photos-no-pad"> <a id="carousel-selector-3">
+                  <li class="photos-no-pad"> 
+                    <a id="carousel-selector-3" class="selected">
                     <img src="images/placeholder/soto-photos-small_06.jpg" class="img-responsive">
                   </a></li>
-                   <li class="photos-no-pad"> <a id="carousel-selector-4">
+                   <li class="photos-no-pad">
+                    <a id="carousel-selector-4">
                     <img src="images/placeholder/soto-photos-small_07.jpg" class="img-responsive">
                   </a></li>
-                  <li class="photos-no-pad"> <a id="carousel-selector-5">
+                  <li class="photos-no-pad">
+                  <a id="carousel-selector-5">
                     <img src="images/placeholder/soto-photos-small_08.jpg" class="img-responsive">
                   </a></li>
-                  <li class="photos-no-pad"> <a id="carousel-selector-6">
+                  <li class="photos-no-pad">
+                    <a id="carousel-selector-6">
                     <img src="images/placeholder/soto-photos-small_09.jpg" class="img-responsive">
                   </a></li>
                 </ul>

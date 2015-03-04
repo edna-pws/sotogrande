@@ -6,7 +6,7 @@
 					<h4 class="footer-title">SotoGrande</h4>
 					<p>Dapdap, Mactan Island, Lapu-Lapu City,</p>
 					<p>Cebu, Philippines</p>
-					<p>Phone: +63032 238 6590</p>
+					<p class="footer-phone">Phone: +63032 238 6590</p>
 				</div>
 			</div>
 

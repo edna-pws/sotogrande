@@ -12,14 +12,14 @@
 				  </div>
 			</div>
 			<div class="row">
-				<div class="col-xs-12 col-md-12"><span class="post-locations-header">Sotogrande Hotel &amp; Resort</span>
+				<div class="col-xs-12 col-md-12"><span class="post-locations-header-head">Sotogrande Hotel &amp; Resort</span>
 					<p class="post-locations-par">Has close proximity to major companies such as TIMEX Philippines, LEAR Corporation, Fairchild Semi-conductors and more. Also with trusted commercial
 					and development banks and foreign exchange dealers and mall.
 					</p>
 				</div>
 			</div>
 			<div class="row">
-				  <div class="col-xs-12 col-md-12"><span class="post-locations-header">Sotogrande Hotel and Resort</span>
+				  <div class="col-xs-12 col-md-12"><span class="post-locations-header-head">Sotogrande Hotel and Resort</span>
 					<p class="post-locations-par">Is just a fifteen (15) minute drive from the Mactan International airport. From Mactan International Airport, drive right after reaching Marina Mall then straight
 					passing the Mactan Economic Zone 1, turn right before Mactan Shrine passing Mactan Church then left turn at the Angasil crossing getting through the
 					<a class="post-locations-link" href="#">Vista Mar Beach Resort's</a> vicinity.
@@ -34,7 +34,7 @@
 			            </ul>
 			        </div>
 			</div>
-		</section>
+			</section>
 	  		</div>
   		</div>
 	</div>
