@@ -1,6 +1,6 @@
 <?php include_once 'header.php'; ?>
 
-<section class="section skin-white section-list section-bottom-line">
+<section class="section skin-white section-list section-bottom-line skin-gap">
 	<div class="container">
 		<h2 class="section-title">Check Availability</h2>
 

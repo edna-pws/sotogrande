@@ -6971,6 +6971,9 @@ dd.p-0 {
 .properties-max {
   width: 53%;
 }
+.skin-gap {
+  margin-top: 145px;
+}
 .navbar {
   margin-bottom: 0;
   border-radius: 0;

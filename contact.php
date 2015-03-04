@@ -1,5 +1,5 @@
 <?php include_once 'header.php'; ?>
-<section class="section skin-gray section-contact">
+<section class="section skin-gray section-contact skin-gap">
 		<div class="container">
 		<h2 class="section-title">Contact Us</h2>
 		<div class="gap gap-3em"></div>

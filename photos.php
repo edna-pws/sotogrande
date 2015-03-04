@@ -1,6 +1,6 @@
 <?php include_once 'header.php'; ?>
 
-<section class="section skin-gray section-photos">
+<section class="section skin-gray section-photos skin-gap">
 	<div class="container">
 		<h2 class="section-title photos-header">photos</h2>
 		<section class="section-carousel l-banner">
@@ -15,7 +15,7 @@
 	  <div class="carousel-inner" role="listbox">
 	    <div class="item active">
 	      <div class="banner-img">
-	      	<img src="images/banner.jpg" alt="...">
+	      	<img src="images/soto-photos-lg_03.jpg" alt="...">
 	      </div>
 	    </div>
 
