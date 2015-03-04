@@ -1,10 +1,10 @@
 <?php include_once 'header.php'; ?>
 
 <section class="section skin-gray skin-gap section-photos">
-	<div class="container bottom-gap">
-		<h2 class="section-title photos-header">photos</h2>
-		<div class="gap gap-3em"></div>
-	<div class="section-photos-banner">
+  <div class="container bottom-gap">
+    <h2 class="section-title photos-header">photos</h2>
+    <div class="gap gap-3em"></div>
+  <div class="section-photos-banner">
   
     <!-- main slider carousel -->
     <div class="row">
@@ -83,16 +83,16 @@
             
         </div>
     </div>
-	
-	<div class="section-photo-par">
-    	<p>
-    		Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
-    		error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
-    	et quasi architecto beatae vitae dicta sunt explicabo.
-    	</p>
-	</div>
+  
+  <div class="section-photo-par">
+      <p>
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
+        error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
+      et quasi architecto beatae vitae dicta sunt explicabo.
+      </p>
+  </div>
 
-	</div>
-	</div>
+  </div>
+  </div>
 </section>
 <?php include_once 'footer.php'; ?>
