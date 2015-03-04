@@ -49,7 +49,7 @@
 	      </ul>
 
 	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="photos.php"><i class="fa fa-camera fa-lg"></i> Photos</a></li>
+	        <li><a href="photos.php"><img src="images/camera.png" class="img-camera" alt=""> Photos</a></li>
 	        <li><a href="locations.php">Location</a></li>
 	        <li><a href="subscribe.php">Subscribe</a></li>
 	        <li><a href="contact.php">Contact</a></li>
