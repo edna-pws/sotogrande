@@ -35,8 +35,8 @@
 
 	    <div class="collapse navbar-collapse" id="nav-collapse">
 	      <ul class="nav navbar-nav">
-	        <li><a href="#">rooms</a></li>
-	        <li><a href="#">meeting and banquet</a></li>
+	        <li><a href="rooms.php">rooms</a></li>
+	        <li><a href="meeting.php">meeting and banquet</a></li>
 	        <li class="dropdown">
 	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">properties <span class="caret"></span></a>
 	          <ul class="dropdown-menu dropdown-mega" role="menu">
@@ -45,14 +45,14 @@
 	            <li><a href="#">xxx</a></li>
 	          </ul>
 	        </li>
-	        <li><a href="#">promos</a></li>
+	        <li><a href="promos.php">promos</a></li>
 	      </ul>
 
 	      <ul class="nav navbar-nav navbar-right">
 	        <li><a href="photos.php">Photos</a></li>
 	        <li><a href="locations.php">Location</a></li>
-	        <li><a href="#">Subscribe</a></li>
-	        <li><a href="#">Contact</a></li>
+	        <li><a href="subscribe.php">Subscribe</a></li>
+	        <li><a href="contact.php">Contact</a></li>
 	        <li class="disabled">+63 32.238.6592</li>
 	      </ul>
 
@@ -62,31 +62,35 @@
 
     <div class="navbar navbar-form-wrapper">
 	<form action="">
-		<div class="form-group form-date">
-			<input id="dp3"  class="input-date form-control" size="16" type="text" value="Check In">
+		<div class="form-group form-date m0">
+		  <div class="input-group">
+			  <input id="dp3"  class="input-date form-control" size="16" type="text" value="Check In">
+			  <div class="input-group-addon"><i class="fa fa-calendar fa-small"></i></div>
+		  </div>
 		</div>
-		<div class="form-group custom-select">
+
+		<div class="form-group custom-select m0">
 			<select name="" id="" class="form-control">
 				<option value="">1 Night</option>
 				<option value="">1</option>
 				<option value="">1</option>
 			</select>
 		</div>
-		<div class="form-group custom-select">
+		<div class="form-group custom-select m0">
 			<select name="" id="" class="form-control">
 				<option value="">1 Adult</option>
 				<option value="">1</option>
 				<option value="">1</option>
 			</select>
 		</div>
-		<div class="form-group custom-select">
+		<div class="form-group custom-select m0">
 			<select name="" id="" class="form-control">
 				<option value="">0 Children</option>
 				<option value="">1</option>
 				<option value="">1</option>
 			</select>
 		</div>
-		<div class="form-group form-group-action">
+		<div class="form-group form-group-action m0">
 			<button class="btn btn-green">Check Availability</button>
 		</div>
 	</form>
