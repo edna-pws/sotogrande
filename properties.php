@@ -22,7 +22,7 @@
 				</div>
 				
 				<div class="post-actions">
-					<a href="#" class="btn btn-default meeting-view">view property</a>
+					<a href="#" class="btn btn-default">view property</a>
 				</div>
 			</div>
 		</div>
