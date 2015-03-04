@@ -1,8 +1,8 @@
 <?php include_once 'header.php'; ?>
 
-<section class="section skin-gray section-locations skin-gap	">
+<section class="section skin-gray section-locations skin-gap">
 	<div class="container">
-		<div class="locations">
+		<div class="locations bottom-gap">
 			<h2 class="section-title">locations</h2>
 			<div class="gap gap-3em"></div>
 			<div class="tab-content post-locations">

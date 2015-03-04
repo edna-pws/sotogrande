@@ -14,22 +14,22 @@
 					  <div role="tabpanel" class="tab-pane active" id="facilities">
 					  	<div class="contactform">
 					  		<div class="row">
-								  <div class="col-md-6">
+								  <div class="col-md-6 contact-form-margin">
 									  <form>
 										  <div class="form-group">
 										   	<label class="name" for="exampleInputName2">First Name</label>
-							  				<input type="text" class="form-control" id="exampleInputName2" placeholder="John Doe">
+							  				<input type="text" class="form-control contact-form-height" id="exampleInputName2" placeholder="John Doe">
 										  </div>
 										  <div class="form-group">
 										   	<label for="exampleInputName2">Last Name</label>
-							  				<input type="text" class="form-control" id="exampleInputName2" placeholder="">
+							  				<input type="text" class="form-control contact-form-height" id="exampleInputName2" placeholder="">
 										  </div>
 										 <div class="row">
 										 	<div class="col-md-6">
 												<form class="form-inline">
 													  <div class="form-group">
 													    <label for="exampleInputContact">Contact Number</label>
-										    				<input type="text" class="form-control" id="exampleInputContact" placeholder="">
+										    				<input type="text" class="form-control contact-form-height" id="exampleInputContact" placeholder="">
 													  </div>
 												</form>
 											</div>
@@ -37,9 +37,8 @@
 													<form class="form">
 														  <div class="form-group">
 														    <label for="Select">Country</label>
-														      <select id="Select" class="form-control country">
-															 	<option>Philiippines</option>
-															 	<option>US</option>
+														      <select id="Select" class="form-control country contact-form-height">
+															 	<option> -Select-</option>
 													      	</select>
 														  </div>
 													</form>
@@ -58,15 +57,16 @@
 				<span class="col-md-5-header contact-header">Sotogrande Hotel and Resort</span>
 				<p class="col-md-5-header-par">Dapdap, Mactan Island, Lapu-Lapu City, Cebu, Philippines</p>
 				<p class="col-md-5-header-par"><strong>RESERVATIONS</strong>
-					<br />+63 32.238.6592</p>
+					<br /><span class="col-md-5-header-pars">+63 32.238.6592</span>
+				</p>
 				<p class="col-md-5-header-par"><strong>reception</strong>
-					<br />+ 63 32.238.6590 I +63 32.238.6591
+					<br /><span class="col-md-5-header-pars">+ 63 32.238.6590 I +63 32.238.6591</span>
 				</p>
 				<p class="col-md-5-header-par"><strong>bannquet sales</strong>
-					<br />	+ 63 32.266.4589
+					<br /><span class="col-md-5-header-pars">+ 63 32.266.4589</span>
 				</p>
 				<p class="col-md-5-header-par"><strong>email add</strong>
-					<br />	info@sotograndehotelresort.com
+					<br /><span class="col-md-5-header-pars">info@sotograndehotelresort.com</span>
 					<br />reservations@sotograndehotelresort.com
 				</p>
 				<button type="button" class="btn btn-default btn-lg post-viewmap" href="#">
@@ -81,5 +81,6 @@
 					  </div>
 					</div>
 	</div>
+	<div class="bottom-gap"></di>
 </section>
 <?php include_once 'footer.php'; ?>

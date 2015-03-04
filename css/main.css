@@ -6868,6 +6868,15 @@ footer:after {
 .message {
   height: 161px;
 }
+.contact-form-height.form-control {
+  height: 45px;
+}
+.submit {
+  margin-top: 20px;
+}
+.country {
+  color: #a4a4a4;
+}
 .l-banner {
   max-height: 800px;
 }
@@ -6997,6 +7006,9 @@ dd.p-0 {
 }
 .bottom-gap {
   padding-bottom: 121px;
+}
+.contact-form-margin {
+  margin-right: 24px;
 }
 .navbar {
   margin-bottom: 0;
@@ -7576,7 +7588,8 @@ dd.p-0 {
   padding-bottom: 10px;
 }
 .col-md-5-header-par {
-  padding-bottom: 25px;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 .post-locations-header {
   font-size: 18px;
@@ -7615,6 +7628,9 @@ dd.p-0 {
 }
 .single-head2 {
   text-transform: Capitalize;
+}
+.col-md-5-header-pars {
+  line-height: 40px;
 }
 .list-group {
   margin-bottom: 38px !important;
