@@ -1,8 +1,7 @@
 <?php include_once 'header.php'; ?>
-bsfbfffffhf
 <section class="banner banner-sm section-banner">
 	<div class="banner-sub">
-		<h3 class="banner-subtitle main-rooms">rooms</h3>
+		<h3 class="banner-subtitle main-rooms">roomsfyfyff</h3>
 	</div>
 </section>
 
