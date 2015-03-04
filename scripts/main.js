@@ -11,6 +11,7 @@ var util = {
             e.owlSlider();
             e.showMap();
             e.carouselPhotos();
+            e.subscribeLightBox();
 
         },
 
@@ -57,7 +58,27 @@ var util = {
 
 
         },
+        subscribeLightBox: function() {
+            //Subscribe Button
+            function subscribeLightBox(e) {
+                e.preventDefault();
+                var sWrapper = $('#subscribe-wrapper');
+                if (sWrapper.hasClass('hidden')) {
+                    sWrapper.fadeIn().removeClass('hidden');
+                } else {
+                    sWrapper.addClass('hidden');
+                }
+            }
+            $('#subscribe').on('click', subscribeLightBox);
 
+            //Form Button
+            function subscribeFormButton(e) {
+                if (e.target.id === 'form-button') {
+                    $('#subscribe-wrapper').fadeOut().addClass('hidden');
+                }
+            }
+            $('#form-button').on('click', subscribeFormButton);
+        },
         carouselPhotos: function() {
                 $('#myCarousel').carousel({
                 interval: 4000
@@ -74,7 +95,7 @@ var util = {
             });
 
             // when the carousel slides, auto update
-            $('#myCarousel').on('slid', function (e) {
+            $('#myCarousel').on('slide', function (e) {
               var id = $('.item.active').data('slide-number');
               id = parseInt(id);
               $('[id^=carousel-selector-]').removeClass('selected');

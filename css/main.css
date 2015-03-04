@@ -5,6 +5,9 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+.hidden {
+  display: none !important;
+}
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -7611,7 +7614,8 @@ dd.p-0 {
 }
 .title-reg,
 .promos-heading-title,
-.promos-heading-content {
+.promos-heading-content,
+#subscribe-wrapper .subscribe-box .subscibe-box-inner {
   font-family: 'Proxima Nova';
 }
 .title-bold {
@@ -7625,7 +7629,8 @@ dd.p-0 {
   font-family: 'AvenirLTStd35Light';
 }
 .title-hbold,
-.thumbnail-banner h1 {
+.thumbnail-banner h1,
+#subscribe-wrapper .subscribe-box-title {
   font-family: 'huge_avant_gardebold';
 }
 .title {
@@ -7924,4 +7929,64 @@ dd.p-0 {
   color: #fff;
   background-color: #337351;
   text-decoration: none !important;
+}
+#subscribe-wrapper {
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#subscribe-wrapper .subscribe-box {
+  position: absolute;
+  width: 30%;
+  margin: 0 auto;
+  background-color: #fff;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+#subscribe-wrapper .subscribe-box .subscibe-box-inner {
+  padding: 40px 25px 65px;
+}
+#subscribe-wrapper .subscribe-box .subscibe-box-inner input {
+  border: 1px solid #e0e0e0 !important;
+  padding: 23px 10px 23px;
+}
+#subscribe-wrapper .subscribe-box .subscibe-box-inner input:focus {
+  border: 1px solid #4a8666 !important;
+}
+#subscribe-wrapper .subscribe-box-title {
+  background-color: #4a8666;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 3px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.fa-subscribe {
+  color: #fff;
+  float: right;
+  padding-right: 15px;
+}
+.fa-subscribe:hover {
+  cursor: pointer;
+}
+.btn-submit {
+  background-color: #4a8666 !important;
+  color: #fff;
+  padding: 12px 81px;
+  border: 2px solid #4a8666;
+  -webkit-transition: all 0.8s;
+          transition: all 0.8s;
+}
+.btn-submit:hover {
+  color: #4a8666;
+  background-color: transparent !important;
 }

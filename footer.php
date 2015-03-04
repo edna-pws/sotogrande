@@ -49,6 +49,21 @@
 			</div>
 		</div>
 	</footer>
+	<div id="subscribe-wrapper" class="hidden">
+		<div class="subscribe-box">
+			<div class="subscribe-box-title">Subcribe Now <i class="fa fa-close fa-subscribe" id="form-button"></i></div>
+			<div class="subscibe-box-inner">
+				<p>We'd love to stay in touch. Subscribe to our newsletter for news, images and offers.</p>
+				<div class="input-group">
+					<input type="text" class="form-control">
+					<span class="input-group-btn">
+						<button type="button" class="btn btn-submit">SEND</button>
+					</span>
+				</div>
+			</div>
+			
+		</div>
+	</div>
 	<script src="scripts/vendor/jquery-2.1.1.js"></script>
 	<script src='https://maps.googleapis.com/maps/api/js?key=&sensor=false&extension=.js'></script> 
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&region=US"></script>
