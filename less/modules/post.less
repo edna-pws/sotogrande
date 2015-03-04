@@ -16,7 +16,8 @@
 		}
 
 		.post-actions{
-			a{
+			a{  
+				border: 2px solid @post-button-border-hover;
 				background: @brand-tertiary;
 				color: @brand-white;
 				//border: 2px solid @brand-base;
@@ -52,10 +53,10 @@
 
 .post-body-title{
 	.title-bold();
-	font-size: 31px;
+	font-size: 32px;
 	margin-top: 33px;
 	margin-bottom: 25px;
-	color: #3e3e3e;
+	color: @post-content-color;
 }
 
 .post-wrapper-img{
@@ -79,6 +80,7 @@
 	.btn{
 		text-transform: uppercase;
 		border-radius:7px;
+
 	}
 }
 
@@ -105,16 +107,6 @@
 		.title-bold;
 		color: #b93a40;
 		display: block;
-	}
-
-	.post-actions{
-		a{
-			&:hover{
-				background: @brand-tertiary;
-				color: @brand-white;
-				border: 2px solid @brand-base;
-			}
-		}
 	}
 }
 

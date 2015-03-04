@@ -6473,13 +6473,20 @@ a:hover {
   margin: 1.5em 0 2em;
   font-size: 16px;
   font-weight: bold;
+  color: #646464;
 }
 .copy p {
   line-height: 28px;
   margin-bottom: 15px;
+  word-wrap: break-all;
+  hyphens: auto;
+  text-align: center;
 }
 .copy-subtitle {
   font-size: 20px;
+  word-wrap: break-all;
+  hyphens: auto;
+  text-align: center;
 }
 .copy-title {
   font-family: 'Proxima Nova Bold';
@@ -6999,7 +7006,8 @@ dd.p-0 {
   padding: 0;
 }
 .section-about {
-  padding: 5.5em 0;
+  padding-top: 77px !important;
+  padding-bottom: 145px !important;
 }
 .properties-max {
   width: 53%;
@@ -7190,6 +7198,7 @@ dd.p-0 {
   background-color: #ffffff;
 }
 .post:hover .post-actions a {
+  border: 2px solid #28553d;
   background: #4a8666;
   color: #ffffff;
   transition: all 0.8s;
@@ -7218,7 +7227,7 @@ dd.p-0 {
 }
 .post-body-title {
   font-family: 'Proxima Nova Bold';
-  font-size: 31px;
+  font-size: 32px;
   margin-top: 33px;
   margin-bottom: 25px;
   color: #3e3e3e;
@@ -7276,11 +7285,6 @@ dd.p-0 {
   color: #3e3e3e;
   color: #b93a40;
   display: block;
-}
-.post-item .post-actions a:hover {
-  background: #4a8666;
-  color: #ffffff;
-  border: 2px solid #28553d;
 }
 .post-item-secondary .post-name {
   font-family: 'Proxima Nova';
