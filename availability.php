@@ -1,6 +1,6 @@
 <?php include_once 'header.php'; ?>
 
-<section class="section skin-white section-list section-bottom-line">
+<section class="section skin-white section-list section-bottom-line skin-gap">
 	<div class="container">
 		<h2 class="section-title">Check Availability</h2>
 
@@ -27,7 +27,7 @@
 				</div>
 				
 				<div class="post-actions">
-					<a href="#" class="btn btn-default avail-button"> Book Now</a>
+					<a href="#" class="btn btn-default avail-button btn2"> Book Now</a>
 				</div>
 			</div>
 		</div>
@@ -55,7 +55,7 @@
 				</div>
 				
 				<div class="post-actions">
-					<a href="#" class="btn btn-default avail-button"> Book Now</a>
+					<a href="#" class="btn btn-default avail-button btn2"> Book Now</a>
 				</div>
 			</div>
 		</div>
@@ -83,7 +83,7 @@
 				</div>
 				
 				<div class="post-actions">
-					<a href="#" class="btn btn-default avail-button"> Book Now</a>
+					<a href="#" class="btn btn-default avail-button btn2"> Book Now</a>
 				</div>
 			</div>
 		</div>
@@ -111,7 +111,7 @@
 				</div>
 				
 				<div class="post-actions">
-					<a href="#" class="btn btn-default avail-button"> Book Now</a>
+					<a href="#" class="btn btn-default avail-button btn2"> Book Now</a>
 				</div>
 			</div>
 		</div>

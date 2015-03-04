@@ -22,7 +22,7 @@
 				</div>
 				
 				<div class="post-actions">
-					<a href="#" class="btn btn-default ">view property</a>
+					<a href="#" class="btn btn-default">view property</a>
 				</div>
 			</div>
 		</div>
@@ -43,7 +43,7 @@
 				</div>
 				
 				<div class="post-actions">
-					<a href="#" class="btn btn-default">view property</a>
+					<a href="#" class="active btn btn-default">view property</a>
 				</div>
 			</div>
 		</div>
