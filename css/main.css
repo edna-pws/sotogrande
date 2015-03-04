@@ -7952,14 +7952,14 @@ dd.p-0 {
   background: #000;
   width: 37px;
   height: 37px;
-  top: 205px;
+  top: 235px;
   left: 11px;
 }
 .photos-control-right {
   background: #000 !important;
   width: 37px !important;
   height: 37px !important;
-  top: 205px !important;
+  top: 235px !important;
   margin-right: 14px !important;
 }
 .carousel-inner > .item > img,
@@ -7971,10 +7971,12 @@ dd.p-0 {
 .section-photos-list {
   margin-top: 50px;
   margin-bottom: 50px;
-  border: #dbdbdb 3px solid;
 }
 .section-photo-par {
   padding: 0px 21px;
   margin-bottom: 20px;
   line-height: 28px;
+}
+.selected img {
+  opacity: 0.5;
 }

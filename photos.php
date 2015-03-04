@@ -17,7 +17,7 @@
                                 <img src="images/soto-photos-lg_03.jpg" class="img-responsive">
                             </div>
                             <div class="item" data-slide-number="1">
-                                <img src="images/soto-photos-lg_03.jpg" class="img-responsive">
+                                <img src="images/soto-photos-lg_04.jpg" class="img-responsive">
                             </div>
                             <div class="item" data-slide-number="2">
                                 <img src="images/soto-photos-lg_03.jpg" class="img-responsive">
