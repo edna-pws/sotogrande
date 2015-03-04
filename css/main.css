@@ -6426,7 +6426,7 @@ a:hover {
 .copy {
   margin: 1.5em 0 2em;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: normal;
   color: #646464;
 }
 .copy p {
@@ -6438,6 +6438,9 @@ a:hover {
       -ms-hyphens: auto;
           hyphens: auto;
   text-align: center;
+}
+.copy-left p {
+  text-align: left;
 }
 .copy-subtitle {
   font-size: 20px;

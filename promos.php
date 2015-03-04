@@ -7,6 +7,15 @@
 </section>
 <section class="section skin-white section-promos section-bottom-line">
 	<div class="container">
+	<div id="owl-example" class="owl-carousel">
+	  <div> Your Content </div>
+	  <div> Your Content </div>
+	  <div> Your Content </div>
+	  <div> Your Content </div>
+	  <div> Your Content </div>
+	  <div> Your Content </div>
+	  <div> Your Content </div>
+	</div>
 		<!-- Indicators -->
 		  <ol class="carousel-indicators promos-carousel">
 		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
