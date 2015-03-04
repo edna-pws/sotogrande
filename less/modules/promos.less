@@ -1,16 +1,83 @@
+.promos-heading-title {
+  margin-top: 74px;
+  margin-bottom: 44px;
+  font-size: 22px;
+  text-align: center;
+  color: @promos-header-color;
+  &:extend(.title-reg);
+}
+
+.promos-heading-content {
+  font-size: 17px;
+  text-align: center;
+  color: @promos-header-color;
+  &:extend(.title-reg);
+}
+
 .promos-caption-header {
-	font-size: 21px;
+    font-size: 20px;
+    text-align: center;
 }
 .promos-par2 {
-	font-size: 15px;
-	line-height: 25px;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
 }
 .promos-list {
-	text-align: center;
+    text-align: center;
 }
-.promos-thumbnail{
-	background: #eeeeee;
+.promos-thumbnail {
+    background: #eeeeee;
 }
 .promos-caption {
-	background: #fff;
+    background: #fff;
+}
+.promos-carousel {
+    background-color: gray;
+}
+/** Promos Slider **/
+
+.thumbnail-banner {
+    background-color: @brand-tertiary;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    h1 {
+        font-size: 14px;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        &:extend(.title-hbold);
+    }
+}
+#carousel-promo {
+    .item {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .owl-page.active span {
+        border-radius: 0 !important;
+        background-color: @promos-carousel-nav-color;
+        border: 3px solid @brand-tertiary;
+        width: 16px;
+        height: 16px;
+    }
+    .owl-page span {
+        border-radius: 0 !important;
+        background-color: @promos-carousel-nav-color;
+        border: 3px solid @promos-carousel-nav-color;
+        width: 16px;
+        height: 16px;
+    }
+}
+.carousel-container {
+    width: 1249px;
+    .container-fixed;
+}
+
+.caption.promos-caption > .promos-btn-wrapper {
+  width: 50%;
+  display:  block;
+  margin: 50px auto 30px;
+
 }

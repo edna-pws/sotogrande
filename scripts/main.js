@@ -8,6 +8,7 @@ var util = {
             e.preloader();
             e.headerBannerLayout();
             e.headerResize();
+            e.owlSlider();
             e.showMap();
             e.carouselPhotos();
 
@@ -106,6 +107,12 @@ var util = {
             $('body').delay(350).css({'overflow':'visible'}); 
 
         },
+        owlSlider: function() {
+            $("#carousel-promo").owlCarousel({
+                items: 3,
+                addClassActive: true
+            });
+        },
 
         showMap: function() {
 
@@ -195,6 +202,24 @@ var util = {
                             '<a target="_blank" href="/" class="">More Info</a><a target="_blank" href="">Get Directions</a></div>',
                         'marker': null
                     },
+                    {
+                        'title': '<i class="fa fa-map-marker"></i> Wyndham Hotel',
+                        'lat': 30.2625927,
+                        'lng': -87.6134412,
+                        'description': '<div id="listName-interestpoint3" class="mapContent"><h3>Stradella Hotel</h3>' +
+                            '<span>24060 Perdido Beach Blvd<br>Orange Beach, Alabama 36561</span>' +
+                            '<a target="_blank" href="/" class="">More Info</a><a target="_blank" href="">Get Directions</a></div>',
+                        'marker': null
+                    },
+                    {
+                        'title': '<i class="fa fa-map-marker"></i> Marriot Suites',
+                        'lat': 30.2625927,
+                        'lng': -87.6134412,
+                        'description': '<div id="listName-interestpoint3" class="mapContent"><h3>Stradella Hotel</h3>' +
+                            '<span>24060 Perdido Beach Blvd<br>Orange Beach, Alabama 36561</span>' +
+                            '<a target="_blank" href="/" class="">More Info</a><a target="_blank" href="">Get Directions</a></div>',
+                        'marker': null
+                    }
                 ]
                 // Creating a global infoWindow object that will be reused by all markers
             var infoWindow = new google.maps.InfoWindow();

@@ -1,3 +1,10 @@
+.container-lg {
+  width: 1450px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -5820,6 +5827,8 @@ button.close {
 }
 .clearfix:before,
 .clearfix:after,
+.container-lg:before,
+.container-lg:after,
 .dl-horizontal dd:before,
 .dl-horizontal dd:after,
 .container:before,
@@ -5847,11 +5856,14 @@ button.close {
 .panel-body:before,
 .panel-body:after,
 .modal-footer:before,
-.modal-footer:after {
+.modal-footer:after,
+.carousel-container:before,
+.carousel-container:after {
   content: " ";
   display: table;
 }
 .clearfix:after,
+.container-lg:after,
 .dl-horizontal dd:after,
 .container:after,
 .container-fluid:after,
@@ -5865,7 +5877,8 @@ button.close {
 .navbar-collapse:after,
 .pager:after,
 .panel-body:after,
-.modal-footer:after {
+.modal-footer:after,
+.carousel-container:after {
   clear: both;
 }
 .center-block {
@@ -6114,8 +6127,34 @@ button.close {
     display: none !important;
   }
 }
+/* margin */
 .m1 {
   margin: 1em !important;
+}
+.m0 {
+  margin: 0 !important;
+}
+.mr0 {
+  margin-right: 0;
+}
+.mt10 {
+  margin-top: 10px;
+}
+/* padding */
+.p0 {
+  padding: 0 !important;
+}
+.pl0 {
+  padding-left: 0 !important;
+}
+.pr0 {
+  padding-right: 0 !important;
+}
+.p10 {
+  padding-top: 10px !important;
+}
+.pr20 {
+  padding-right: 20px !important;
 }
 .img-small {
   width: 80% !important;
@@ -6125,9 +6164,6 @@ button.close {
 }
 .inline {
   display: inline-block !important;
-}
-.m0 {
-  margin: 0 !important;
 }
 body {
   -webkit-font-smoothing: antialiased;
@@ -6355,6 +6391,9 @@ a:hover {
   color: #7d7d7d;
   border: #afafaf 2px solid;
   margin-bottom: 0 !important;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 .promos-btn:hover,
 .promos-btn:focus {
@@ -6430,7 +6469,7 @@ a:hover {
 .copy {
   margin: 1.5em 0 2em;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: normal;
   color: #646464;
 }
 .copy p {
@@ -6442,6 +6481,9 @@ a:hover {
       -ms-hyphens: auto;
           hyphens: auto;
   text-align: center;
+}
+.copy-left p {
+  text-align: left;
 }
 .copy-subtitle {
   font-size: 20px;
@@ -6648,6 +6690,7 @@ a:hover {
   font-size: 44px;
   font-family: 'AvenirLTStd35Light';
   color: #28553d;
+  margin-top: 17px;
 }
 .social {
   float: right;
@@ -6724,6 +6767,16 @@ footer:after {
 }
 footer:after {
   clear: both;
+}
+@media (max-width: 640px) {
+  .footer-location {
+    text-align: center;
+  }
+}
+@media (max-width: 640px) {
+  .footer-connect h3 {
+    text-align: center;
+  }
 }
 .form-control {
   border-radius: 0;
@@ -6930,11 +6983,23 @@ dd.p-0 {
   font-size: 18px;
   padding: 10px 15px;
   -webkit-transition: .2s linear all;
+<<<<<<< HEAD
   transition: .2s linear all;
+=======
+          transition: .2s linear all;
+}
+.mapLegend li .fa-map-marker {
+  color: #28553d;
+  fonst-size: 25px;
+  padding-right: 16px;
+>>>>>>> origin/master
 }
 .mapLegend li:hover {
   cursor: pointer;
   background-color: #28553d;
+  color: #fff;
+}
+.mapLegend li:hover .fa-map-marker {
   color: #fff;
 }
 .mapImg {
@@ -7399,7 +7464,8 @@ dd.p-0 {
   margin: 1em 0;
 }
 .section-footer {
-  padding: 2em ;
+  padding-top: 30px;
+  padding-bottom: 0;
   background: #fff;
 }
 .section-footer:before,
@@ -7419,17 +7485,7 @@ dd.p-0 {
   clear: both;
 }
 .section-footer .title-bold {
-  margin-bottom: 1.5em;
-}
-@media (max-width: 640px) {
-  .section-footer .footer-location {
-    text-align: center;
-  }
-}
-@media (max-width: 640px) {
-  .section-footer .footer-connect h3 {
-    text-align: center;
-  }
+  margin-bottom: 24px;
 }
 .section-footer .navbar-nav {
   margin: 0;
@@ -7524,9 +7580,6 @@ dd.p-0 {
   background-color: transparent;
   border: 3px solid #fff;
 }
-.promos-carousel {
-  background-color: gray;
-}
 .nav-tabs-primary {
   border-bottom: 0;
 }
@@ -7560,7 +7613,9 @@ dd.p-0 {
 .section-rooms-minimum {
   min-height: 400px;
 }
-.title-reg {
+.title-reg,
+.promos-heading-title,
+.promos-heading-content {
   font-family: 'Proxima Nova';
 }
 .title-bold {
@@ -7573,7 +7628,8 @@ dd.p-0 {
 .title-thin {
   font-family: 'AvenirLTStd35Light';
 }
-.title-hbold {
+.title-hbold,
+.thumbnail-banner h1 {
   font-family: 'huge_avant_gardebold';
 }
 .title {
@@ -7729,12 +7785,26 @@ dd.p-0 {
 .meeting-col {
   margin-top: 0px !important;
 }
+.promos-heading-title {
+  margin-top: 74px;
+  margin-bottom: 44px;
+  font-size: 22px;
+  text-align: center;
+  color: #3e3e3e;
+}
+.promos-heading-content {
+  font-size: 17px;
+  text-align: center;
+  color: #3e3e3e;
+}
 .promos-caption-header {
-  font-size: 21px;
+  font-size: 20px;
+  text-align: center;
 }
 .promos-par2 {
   font-size: 15px;
   line-height: 25px;
+  text-align: center;
 }
 .promos-list {
   text-align: center;
@@ -7744,6 +7814,52 @@ dd.p-0 {
 }
 .promos-caption {
   background: #fff;
+}
+.promos-carousel {
+  background-color: gray;
+}
+/** Promos Slider **/
+.thumbnail-banner {
+  background-color: #4a8666;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.thumbnail-banner h1 {
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+}
+#carousel-promo .item {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#carousel-promo .owl-page.active span {
+  border-radius: 0 !important;
+  background-color: #eeeeee;
+  border: 3px solid #4a8666;
+  width: 16px;
+  height: 16px;
+}
+#carousel-promo .owl-page span {
+  border-radius: 0 !important;
+  background-color: #eeeeee;
+  border: 3px solid #eeeeee;
+  width: 16px;
+  height: 16px;
+}
+.carousel-container {
+  width: 1249px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.caption.promos-caption > .promos-btn-wrapper {
+  width: 50%;
+  display: block;
+  margin: 50px auto 30px;
 }
 .single-return {
   text-align: center;
