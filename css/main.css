@@ -7953,6 +7953,9 @@ dd.p-0 {
   background-color: #337351;
   text-decoration: none !important;
 }
+.mainrooms-list {
+  margin-left: 81px;
+}
 #subscribe-wrapper {
   z-index: 9999;
   position: fixed;
