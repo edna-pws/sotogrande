@@ -6935,6 +6935,11 @@ footer:after {
 .country {
   color: #a4a4a4;
 }
+@media (min-width: 1024px) {
+  .navbar-form-wrapper {
+    width: 100%;
+  }
+}
 .l-banner {
   max-height: 800px;
 }
