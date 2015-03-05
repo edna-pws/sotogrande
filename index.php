@@ -105,8 +105,8 @@
 					<img src="images/vistamar.jpg" alt="">
 				</div>
 				<h4 class="post-body-title">Vistamar Beach &amp; Resort</h4>
-				<div class="copy copy-left">
-					<p class "copy-left-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+				<div class="copy">
+					<p class "copy-left-center copy-left-center-marg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 					</p>
 				</div>
