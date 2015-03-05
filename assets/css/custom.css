@@ -107,7 +107,7 @@ padding: 8px 12px;
 #footer{
 	padding: 20px 0px;
 	background: #f3f3f3;
-	text-align: center
+	text-align: center;
 }
 .twitter-share-button{
 	top: 4px;
@@ -407,6 +407,13 @@ NO MORE TABLES!! ;)
 	.hp-table td:nth-of-type(4):before { 
 		content: "Description:";
 		font-weight: bold;
+	}
+}
+
+/*RESPONSIVE-UPDATE*/
+@media (min-width: 1024px) {
+	.navbar-nav {
+		margin-bottom: 0px !important;
 	}
 }
 
