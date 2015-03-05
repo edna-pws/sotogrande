@@ -62,7 +62,7 @@
 				</div>
 				<h4 class="post-body-title">La Mirada Hotel</h4>
 				<div class="copy copy-left">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+					<p class="copy-left-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 					</p>
 				</div>
@@ -84,7 +84,7 @@
 				</div>
 				<h4 class="post-body-title">Sotogrande Hotel &amp; Resort</h4>
 				<div class="copy copy-left">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+					<p class="copy-left-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 					</p>
 				</div>
@@ -106,7 +106,7 @@
 				</div>
 				<h4 class="post-body-title">Vistamar Beach &amp; Resort</h4>
 				<div class="copy copy-left">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+					<p class "copy-left-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 					</p>
 				</div>

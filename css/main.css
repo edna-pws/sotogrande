@@ -6497,6 +6497,12 @@ a:hover {
 .copy-left p {
   text-align: left;
 }
+@media (min-width: 1024px) {
+  .copy-left .copy-left-center {
+    text-align: center !important;
+    padding: 0px 20px;
+  }
+}
 .copy-subtitle {
   font-size: 20px;
   word-wrap: break-all;
@@ -7207,7 +7213,7 @@ dd.p-0 {
 .form-date {
   background-color: #ffffff;
   display: block;
-  width: 13%;
+  width: 23%;
   position: relative;
   float: left;
   margin-right: 2px !important;
@@ -7229,6 +7235,9 @@ dd.p-0 {
 }
 .form-date .glyphicon-input {
   color: #787878;
+  position: relative;
+  top: 4px;
+  left: 90px;
 }
 .custom-select {
   width: 23% !important;
@@ -7245,6 +7254,7 @@ dd.p-0 {
 .form-group-action {
   width: 16% !important;
   float: left;
+  position: absolute;
 }
 .form-group-action button {
   min-height: 45px;
@@ -7303,6 +7313,11 @@ dd.p-0 {
   margin-top: 33px;
   margin-bottom: 25px;
   color: #3e3e3e;
+}
+@media (min-width: 1024px) {
+  .post-body-title {
+    font-size: 23px;
+  }
 }
 .post-wrapper-img {
   /*width: 485px;*/
@@ -7586,6 +7601,12 @@ dd.p-0 {
   padding: 45px;
   background: #fff;
   width: 100%;
+}
+@media (min-width: 1024px) {
+  .section-featured {
+    text-align: center;
+    font-size: 90%;
+  }
 }
 .carousel-inner .banner-img img {
   width: 100%;
