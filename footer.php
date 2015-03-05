@@ -25,7 +25,7 @@
 					<p>Phone: +63032 238 6590</p>
 				</div>
 				<div class="col-md-6 pr0 footer-full footer-nav-center">
-					<ul class="nav navbar-nav m0">
+					<ul class="nav navbar-nav m0 footer-modify-nav">
 				        <li><a href="#">about</a></li>
 				        <li><a href="#">properties</a></li>
 				        <li><a href="#">sitemap</a></li>

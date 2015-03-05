@@ -6840,9 +6840,6 @@ footer:after {
   .footer-location-modify {
     width: 100%;
   }
-  .footer-modify-phone {
-    width: 100%;
-  }
   .title-bold {
     width: 100%;
     text-align: center;
@@ -6852,12 +6849,23 @@ footer:after {
     width: 63%;
   }
   .footer-nav-center {
-    width: 88%;
+    width: 100%;
     display: block;
+    float: left;
+  }
+  .footer-modify-nav {
+    width: 100%;
+    padding: 0px 76px;
+    float: left;
+  }
+  .nav > li {
     float: left;
   }
 }
 @media (max-width: 640px) {
+  .row {
+    text-align: center;
+  }
   .footer-full {
     width: 100%;
   }
@@ -6869,8 +6877,51 @@ footer:after {
   .footer-location-modify {
     width: 100%;
   }
-  .footer-modify-phone {
+  .title-bold {
     width: 100%;
+    text-align: center;
+  }
+  .social {
+    text-align: center;
+    width: 100%;
+    margin-left: 205px;
+  }
+  .nav > li {
+    float: left;
+  }
+  .footer-modify-nav {
+    padding: 0px;
+  }
+}
+@media (max-width: 480px) {
+  .row {
+    text-align: center;
+  }
+  .footer-full {
+    width: 100%;
+  }
+  .footer-modify-phone {
+    float: left;
+    width: 100%;
+    padding-top: 20px;
+  }
+  .footer-location-modify {
+    width: 100%;
+  }
+  .title-bold {
+    width: 100%;
+    text-align: center;
+  }
+  .social {
+    text-align: center;
+    width: 100%;
+    margin-left: 127px;
+  }
+  .nav > li {
+    float: left;
+  }
+  .footer-modify-nav {
+    padding: 0px;
   }
 }
 .form-control {
@@ -7431,6 +7482,27 @@ dd.p-0 {
   }
   .mobile-new-two {
     width: 785px !important;
+  }
+}
+@media (max-width: 1024px) {
+  .navbar-top {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .navbar-top {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media (max-width: 640px) {
+  .navbar-top {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 .post:hover {
