@@ -55,7 +55,7 @@
 			<div class="subscibe-box-inner">
 				<p>We'd love to stay in touch. Subscribe to our newsletter for news, images and offers.</p>
 				<div class="input-group">
-					<input type="button" class="form-control">
+					<input type="text" class="input-subscribe form-control" placeholder="Email Address">
 					<div class="input-group-btn">
 						<button type="submit" class="btn btn-submit">Send</button>
 					</div>
