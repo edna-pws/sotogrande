@@ -6526,8 +6526,8 @@ a:hover {
   text-transform: uppercase;
 }
 @media (min-width: 1024px) {
-  .copy-left-center-marg p {
-    padding-bottom: 28px;
+  .post-actions-marg {
+    padding-top: 28px;
   }
 }
 /*!
@@ -6799,6 +6799,11 @@ footer:after {
 @media (max-width: 640px) {
   .footer-connect h3 {
     text-align: center;
+  }
+}
+@media (min-width: 1024px) {
+  .container-lg {
+    width: 1000%;
   }
 }
 .form-control {

@@ -110,7 +110,7 @@
 					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 					</p>
 				</div>
-				<div class="post-actions">
+				<div class="post-actions post-actions-marg">
 					<a href="" class="btn btn-default">view property</a>
 				</div>
 			</div>
