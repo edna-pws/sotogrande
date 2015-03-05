@@ -1,7 +1,7 @@
 <section class="section section-footer">
 	<div class="container-lg">
 		<div class="row">
-			<div class="col-sm-12 col-md-4">
+			<div class="col-sm-12 col-md-4 footer-location-modify">
 				<div class="footer-location">
 					<h4 class="footer-title">SotoGrande</h4>
 					<p>Dapdap, Mactan Island, Lapu-Lapu City,</p>
@@ -9,7 +9,7 @@
 				</div>
 			</div>
 
-			<div class="col-sm-12 col-md-8">
+			<div class="col-sm-12 col-md-8 footer-modify-phone">
 				<div class="footer-connect">
 					<h3 class="title-bold text-right">Stay Connected</h3>
 					<ul class="social">
@@ -21,10 +21,10 @@
 				</div>
 			</div>
 			<div class="col-md-12 p0 mt10">
-				<div class="col-md-6">
+				<div class="col-md-6 footer-modify-phone">
 					<p>Phone: +63032 238 6590</p>
 				</div>
-				<div class="col-md-6 pr0 footer-full">
+				<div class="col-md-6 pr0 footer-full footer-nav-center">
 					<ul class="nav navbar-nav m0">
 				        <li><a href="#">about</a></li>
 				        <li><a href="#">properties</a></li>
