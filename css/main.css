@@ -3759,7 +3759,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-collapse.in {
   overflow-y: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .navbar-collapse {
     width: auto;
     border-top: 0;
@@ -4107,6 +4107,28 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #555555;
 }
 @media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #777777;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333333;
+    background-color: transparent;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555555;
+    background-color: #e7e7e7;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;
+  }
+}
+@media (max-width: 1024px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #777777;
   }
@@ -6976,9 +6998,10 @@ footer:after {
 .skin-white-services {
   margin-right: 60px;
 }
-@media (max-width: 760px) {
+@media (max-width: 786px) {
   .l-banner {
     height: auto !important;
+    margin-bottom: 50px !important ;
   }
 }
 dd.p-0 {
@@ -7319,6 +7342,9 @@ dd.p-0 {
     margin: 0px !important;
     padding-left: 15px !important;
   }
+  .navbar-header {
+    display: inline-block;
+  }
 }
 @media (max-width: 768px) and (min-width: 641px) {
   .nav-bar-width-wrapper {
@@ -7437,6 +7463,11 @@ dd.p-0 {
 }
 .post-wrapper-img img {
   width: 100%;
+}
+@media (max-width: 768px) {
+  .post-wrapper-img {
+    height: auto;
+  }
 }
 .post-content p {
   line-height: 28px;
@@ -7712,10 +7743,15 @@ dd.p-0 {
   background: #fff;
   width: 100%;
 }
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
   .section-featured {
     text-align: center;
     font-size: 90%;
+  }
+}
+@media (max-width: 768px) {
+  .section-featured {
+    text-align: center;
   }
 }
 .carousel-inner .banner-img img {

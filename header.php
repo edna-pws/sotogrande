@@ -139,6 +139,9 @@
 						<option value="">1</option>
 					</select>
 				</div>
+				<div class="form-group form-group-action">
+					<button class="btn btn-green">Check Availability</button></a>
+				</div>
 			</form>
 			<form action="" class="nav-bar-width-wrapper mobile-new-two-center">
 				<div class="form-group form-group-action">
