@@ -34,7 +34,7 @@
 	      </a>
 	    </div>
 
-	    <div class="collapse navbar-collapse" id="nav-collapse">
+	    <div class="collapse navbar-collapse b0" id="nav-collapse">
 	      <ul class="nav navbar-nav">
 	        <li><a href="rooms.php">rooms</a></li>
 	        <li><a href="meeting.php">meeting and banquet</a></li>
