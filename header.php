@@ -67,7 +67,6 @@
 		<div class="form-group form-date m0">
 		  <div class="input-group">
 			  <input id="dp3"  class="input-date form-control" size="16" type="text" value="Check In">
-			  <div class="input-group-addon"><i class="fa fa-calendar fa-small"></i></div>
 		  </div>
 		</div>
 
