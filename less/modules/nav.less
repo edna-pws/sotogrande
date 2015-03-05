@@ -146,25 +146,41 @@
 }
 
 .form-date {
+	background-color: @brand-white;
 	display: block;
 	width: 13%;
 	position: relative;
 	float: left;
-	overflow: hidden;
-	.input-group-addon {
-		background-color: @brand-white;
-		border: 0;
-		border-radius: 0;
+	margin-right: 2px !important;
+	.input-group {
+		text-align: center;
+		.form-control {	
+			border-right-width: 0;
+			min-height: 45px;
+			display: inline-block;
+			width: 75%;
+			border: 2px solid @brand-white;
+			box-shadow: none;
+			font-weight: bold;
+		}
 	}
-	input {
-		border-right-width: 0;
-		min-height: 45px;
+	
+	.input-group-icon {
+		padding: 10px;
+	}
+	.glyphicon-input {
+		color: @post-content-color;
 	}
 }
 
 .custom-select {
 	width: 23% !important;
 	float: left;
+	.form-control {
+		border: 0;
+		box-shadow: none;
+		font-weight: bold;
+	}
 	select {
 		min-height: 45px;
 	}

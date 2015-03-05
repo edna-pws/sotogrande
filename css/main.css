@@ -6138,7 +6138,10 @@ button.close {
   margin: 0 !important;
 }
 .mr0 {
-  margin-right: 0;
+  margin-right: 0 !important;
+}
+.mr2 {
+  margin-right: 2px !important;
 }
 .mt10 {
   margin-top: 10px;
@@ -7054,14 +7057,29 @@ dd.p-0 {
   padding-top: 20px !important;
 }
 .home-control-left {
+<<<<<<< HEAD
+  background: #000;
+  width: 37px;
+  height: 37px;
+  top: 235px;
+  left: 11px;
+=======
   top: 500px !important;
   left: 0px !important;
   height: 35px !important;
+>>>>>>> 4ecc04cb2f9db5262fc536d96c7b392ae4c8ac55
 }
 .home-control-right {
   top: 500px !important;
   margin-right: 0px !important;
   height: 35px !important;
+}
+.home-control-right {
+  background: #000;
+  width: 37px;
+  height: 37px;
+  top: 235px;
+  margin-right: 14px;
 }
 .navbar {
   margin-bottom: 0;
@@ -7188,24 +7206,39 @@ dd.p-0 {
           transition: width 0.5s;
 }
 .form-date {
+  background-color: #ffffff;
   display: block;
   width: 13%;
   position: relative;
   float: left;
-  overflow: hidden;
+  margin-right: 2px !important;
 }
-.form-date .input-group-addon {
-  background-color: #ffffff;
-  border: 0;
-  border-radius: 0;
+.form-date .input-group {
+  text-align: center;
 }
-.form-date input {
+.form-date .input-group .form-control {
   border-right-width: 0;
   min-height: 45px;
+  display: inline-block;
+  width: 75%;
+  border: 2px solid #ffffff;
+  box-shadow: none;
+  font-weight: bold;
+}
+.form-date .input-group-icon {
+  padding: 10px;
+}
+.form-date .glyphicon-input {
+  color: #3e3e3e;
 }
 .custom-select {
   width: 23% !important;
   float: left;
+}
+.custom-select .form-control {
+  border: 0;
+  box-shadow: none;
+  font-weight: bold;
 }
 .custom-select select {
   min-height: 45px;
