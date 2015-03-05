@@ -6502,6 +6502,11 @@ a:hover {
 .copy-left p {
   text-align: left;
 }
+@media (max-width: 1024px) {
+  .copy-left .copy-left-center {
+    text-align: center !important;
+  }
+}
 @media (max-width: 1024px) and (min-width: 769px) {
   .copy-left .copy-left-center {
     text-align: center !important;
@@ -6815,6 +6820,45 @@ footer:after {
   .footer-full {
     width: 59%;
     float: right;
+  }
+}
+@media (max-width: 768px) {
+  .row {
+    text-align: center;
+  }
+  .footer-full {
+    width: 100%;
+  }
+  .footer-modify-phone {
+    float: left;
+    width: 100%;
+    padding-top: 20px;
+  }
+  .footer-location-modify {
+    width: 100%;
+  }
+  .footer-modify-phone {
+    width: 100%;
+  }
+  .title-bold {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 640px) {
+  .footer-full {
+    width: 100%;
+  }
+  .footer-modify-phone {
+    float: left;
+    width: 100%;
+    padding-top: 20px;
+  }
+  .footer-location-modify {
+    width: 100%;
+  }
+  .footer-modify-phone {
+    width: 100%;
   }
 }
 .form-control {
