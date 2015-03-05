@@ -63,8 +63,8 @@
     </div>
 
     <div class="navbar navbar-form-wrapper">
-    <div clas="nav-bar-width">
-		<form action="">
+    <div class="nav-bar-width">
+		<form action="" class="nav-bar-width-wrapper">
 			<div class="form-group form-date">
 			  <div class="input-group">
 				  <input id="dp3"  class="input-date form-control" size="16" type="text" value="Check In">
