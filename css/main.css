@@ -3217,16 +3217,6 @@ tbody.collapse.in {
     right: auto;
   }
 }
-@media (min-width: 1024px) {
-  .navbar-right .dropdown-menu {
-    left: auto;
-    right: 0;
-  }
-  .navbar-right .dropdown-menu-left {
-    left: 0;
-    right: auto;
-  }
-}
 .btn-group,
 .btn-group-vertical {
   position: relative;
@@ -6939,6 +6929,11 @@ footer:after {
 .contact-form-height.form-control:focus {
   border: #c7e8d7 1px solid;
 }
+@media (max-width: 640px) {
+  .rwd-font {
+    font-size: 15px !important;
+  }
+}
 .submit {
   margin-top: 30px;
 }
@@ -7294,16 +7289,25 @@ dd.p-0 {
   display: inline-block;
   padding-bottom: 6px;
 }
-@media (max-width: 1024px) and (min-width: 769px) {
+@media (max-width: 1024px) {
   .nav-bar-width-wrapper {
-    width: 91% !important;
+    width: 89% !important;
     margin: 0px !important;
+    padding-left: 15px !important;
   }
 }
-@media (max-width: 768px) and (min-width: 641px) {
+@media (max-width: 768px) {
   .nav-bar-width-wrapper {
-    width: 91% !important;
+    width: 82% !important;
     margin: 0px !important;
+    padding-left: 15px !important;
+  }
+}
+@media (max-width: 640px) {
+  .nav-bar-width-wrapper {
+    width: 76% !important;
+    margin: 0px !important;
+    padding-left: 15px !important;
   }
 }
 .post:hover {

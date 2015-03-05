@@ -67,7 +67,7 @@
 		<form action="" class="nav-bar-width-wrapper">
 			<div class="form-group form-date">
 			  <div class="input-group">
-				  <input id="dp3"  class="input-date form-control" size="16" type="text" value="Check In">
+				  <input id="dp3"  class="input-date form-control rwd-font" size="16" type="text" value="Check In">
 				  <div class="input-group-icon">
 				  	<span class="glyphicon glyphicon-calendar glyphicon-input"></span>
 				  </div>
