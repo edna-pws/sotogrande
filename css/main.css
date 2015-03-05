@@ -7284,6 +7284,12 @@ dd.p-0 {
   display: inline-block;
   padding-bottom: 6px;
 }
+@media (min-width: 1024px) {
+  .nav-bar-width {
+    width: 91%;
+    margin: 0px;
+  }
+}
 .post:hover {
   cursor: pointer;
 }
