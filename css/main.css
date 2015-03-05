@@ -7057,29 +7057,14 @@ dd.p-0 {
   padding-top: 20px !important;
 }
 .home-control-left {
-<<<<<<< HEAD
-  background: #000;
-  width: 37px;
-  height: 37px;
-  top: 235px;
-  left: 11px;
-=======
   top: 500px !important;
   left: 0px !important;
   height: 35px !important;
->>>>>>> 4ecc04cb2f9db5262fc536d96c7b392ae4c8ac55
 }
 .home-control-right {
   top: 500px !important;
   margin-right: 0px !important;
   height: 35px !important;
-}
-.home-control-right {
-  background: #000;
-  width: 37px;
-  height: 37px;
-  top: 235px;
-  margin-right: 14px;
 }
 .navbar {
   margin-bottom: 0;
@@ -7229,7 +7214,7 @@ dd.p-0 {
   padding: 10px;
 }
 .form-date .glyphicon-input {
-  color: #3e3e3e;
+  color: #787878;
 }
 .custom-select {
   width: 23% !important;
