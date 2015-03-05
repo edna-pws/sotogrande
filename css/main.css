@@ -7222,7 +7222,7 @@ dd.p-0 {
   padding: 10px;
 }
 .form-date .glyphicon-input {
-  color: #3e3e3e;
+  color: #787878;
 }
 .custom-select {
   width: 23% !important;
@@ -8038,10 +8038,26 @@ dd.p-0 {
   border: 2px solid #4a8666;
   -webkit-transition: all 0.8s;
           transition: all 0.8s;
+  text-transform: uppercase;
 }
 .btn-submit:hover {
-  color: #4a8666;
+  color: #4a8666 !important;
   background-color: transparent !important;
+}
+.input-subscribe {
+  color: #333;
+}
+.input-subscribe::-webkit-input-placeholder {
+  font-weight: bold;
+}
+.input-subscribe::-moz-placeholder {
+  font-weight: bold;
+}
+.input-subscribe:-moz-placeholder {
+  font-weight: bold;
+}
+.input-subscribe:-ms-input-placeholder {
+  font-weight: bold;
 }
 .section-photos-list {
   padding-left: 0px !important;

@@ -1,6 +1,6 @@
 #TODO LIST
 
->Fixed booking form checkin input
+>Fixed booking form checkin input (Done)
 
 >rooms.php : text-decoration
 
