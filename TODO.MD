@@ -1,9 +1,9 @@
-/** TODO LIST **/
+#TODO LIST
 
-- Fixed booking form checkin input
+>Fixed booking form checkin input
 
-- rooms.php : text-decoration
+>rooms.php : text-decoration
 
-- Fixed Subscribe
+>Fixed Subscribe (Done)
 
-- Fixed Homepage HERO Slider
+>Fixed Homepage HERO Slider

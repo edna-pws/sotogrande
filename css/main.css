@@ -258,8 +258,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('../fonts/glyphicons/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -7053,6 +7053,20 @@ dd.p-0 {
 .footer-phone {
   padding-top: 20px !important;
 }
+.home-slider-left {
+  background: #000;
+  width: 37px;
+  height: 37px;
+  top: 235px;
+  left: 11px;
+}
+.home-slider-right {
+  background: #000 !important;
+  width: 37px !important;
+  height: 37px !important;
+  top: 235px !important;
+  margin-right: 14px !important;
+}
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
@@ -8028,15 +8042,34 @@ dd.p-0 {
   border: #f6f6f6 11px solid;
   box-shadow: 0 0 5px 5px #d5d5d5;
 }
-.section-photos-list {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
 .section-photo-par {
-  padding: 0px 21px;
+  padding: 0px 20px;
   margin-bottom: 20px;
   line-height: 28px;
+  margin-top: 52px;
 }
 .selected img {
   opacity: 0.5;
+}
+.list-inline > li {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  float: left;
+}
+.section-photos-row {
+  width: 93%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.photos-indicator-border {
+  width: 100%;
+  border: #dbdbdb 2px solid;
+}
+.section-photos-no-marg {
+  margin-left: -15px;
+}
+.list-inline > li {
+  margin-right: -15px !important;
 }
