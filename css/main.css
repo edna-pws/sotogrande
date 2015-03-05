@@ -6976,6 +6976,11 @@ footer:after {
 .skin-white-services {
   margin-right: 60px;
 }
+@media (max-width: 760px) {
+  .l-banner {
+    height: auto !important;
+  }
+}
 dd.p-0 {
   padding: 0;
 }
