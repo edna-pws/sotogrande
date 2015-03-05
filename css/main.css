@@ -6371,6 +6371,7 @@ a:hover {
 .post-viewmap:focus {
   color: #28553d;
   background-color: none !important;
+  outline: 0px !importants;
 }
 .media-view {
   display: block;
@@ -6895,6 +6896,9 @@ footer:after {
 }
 .message {
   height: 161px;
+}
+.message:focus {
+  border: #c7e8d7 1px solid;
 }
 .contact-form-height.form-control {
   height: 45px;
