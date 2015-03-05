@@ -43,9 +43,9 @@
 	    </div>
 
 	  </div>
-						<a class="carousel-control left home-control-left" href="#banner-slider" data-slide="prev">‹</a>
+				<a class="carousel-control left photos-control-left home-control-left" href="#banner-slider" data-slide="prev">‹</a>
 
-                        <a class="carousel-control right home-control-right" href="#banner-slider" data-slide="next">›</a>
+                <a class="carousel-control right photos-control-right home-control-right" href="#banner-slider" data-slide="next">›</a>
 	</div>
 </section>
 
