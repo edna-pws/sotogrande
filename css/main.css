@@ -6227,6 +6227,11 @@ a:hover {
   text-align: center;
   display: inline-block;
 }
+@media (max-width: 480px) {
+  .banner-sub {
+    margin-top: 31px;
+  }
+}
 .banner-subtitle {
   font-family: 'huge_avant_gardebold';
   font-size: 17px;
@@ -6948,6 +6953,17 @@ footer:after {
 .form-responsive {
   display: none;
 }
+@media (max-width: 480px) {
+  .form-desktop {
+    display: none;
+  }
+  .form-responsive {
+    display: inline;
+  }
+  .navbar-form-wrapper {
+    height: 193px;
+  }
+}
 .l-banner {
   max-height: 800px;
 }
@@ -7317,6 +7333,39 @@ dd.p-0 {
   .nav-bar-width-wrapper {
     margin: 0px !important;
     padding-left: 15px !important;
+  }
+  .mobile-new {
+    width: 954px !important;
+  }
+  .mobile-new-two {
+    width: 954px !important;
+  }
+  .mobile-new-two-center {
+    margin: 0 auto;
+    position: relative;
+    left: 134px;
+    bottom: 17px;
+  }
+  .navbar-top {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .navbar-form-wrapper {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+@media (max-width: 320px) {
+  .nav-bar-width-wrapper {
+    margin: 0px !important;
+    padding-left: 15px !important;
+  }
+  .mobile-new {
+    width: 785px !important;
+  }
+  .mobile-new-two {
+    width: 785px !important;
   }
 }
 .post:hover {

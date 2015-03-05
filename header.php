@@ -64,41 +64,46 @@
 
     <div class="navbar navbar-form-wrapper">
     <div class="nav-bar-width">
-		<form action="" class="nav-bar-width-wrapper">
-			<div class="form-group form-date">
-			  <div class="input-group">
-				  <input id="dp3"  class="input-date form-control rwd-font" size="16" type="text" value="Check In">
-				  <div class="input-group-icon">
-				  	<span class="glyphicon glyphicon-calendar glyphicon-input"></span>
+    	<!--form-desktop -->
+    	<div class="form-desktop">
+			<form action="" class="nav-bar-width-wrapper">
+				<div class="form-group form-date">
+				  <div class="input-group">
+					  <input id="dp3"  class="input-date form-control rwd-font" size="16" type="text" value="Check In">
+					  <div class="input-group-icon">
+					  	<span class="glyphicon glyphicon-calendar glyphicon-input"></span>
+					  </div>
 				  </div>
-			  </div>
-			</div>
+				</div>
 
-			<div class="form-group custom-select mr2">
-				<select name="" id="" class="form-control">
-					<option value="">1 Night</option>
-					<option value="">1</option>
-					<option value="">1</option>
-				</select>
-			</div>
-			<div class="form-group custom-select mr2">
-				<select name="" id="" class="form-control">
-					<option value="">1 Adult</option>
-					<option value="">1</option>
-					<option value="">1</option>
-				</select>
-			</div>
-			<div class="form-group custom-select mr0">
-				<select name="" id="" class="form-control">
-					<option value="">0 Children</option>
-					<option value="">1</option>
-					<option value="">1</option>
-				</select>
-			</div>
-			<div class="form-group form-group-action">
-				<button class="btn btn-green">Check Availability</button></a>
-			</div>
-		</form>
+				<div class="form-group custom-select mr2">
+					<select name="" id="" class="form-control">
+						<option value="">1 Night</option>
+						<option value="">1</option>
+						<option value="">1</option>
+					</select>
+				</div>
+				<div class="form-group custom-select mr2">
+					<select name="" id="" class="form-control">
+						<option value="">1 Adult</option>
+						<option value="">1</option>
+						<option value="">1</option>
+					</select>
+				</div>
+				<div class="form-group custom-select mr0">
+					<select name="" id="" class="form-control">
+						<option value="">0 Children</option>
+						<option value="">1</option>
+						<option value="">1</option>
+					</select>
+				</div>
+				<div class="form-group form-group-action">
+					<button class="btn btn-green">Check Availability</button></a>
+				</div>
+			</form>
+		</div>
+		<!--/form-desktop -->
+
 		<!--form-responsive -->
 		<div class="form-responsive">
 			<form action="" class="nav-bar-width-wrapper mobile-new">
@@ -134,12 +139,15 @@
 						<option value="">1</option>
 					</select>
 				</div>
+			</form>
+			<form action="" class="nav-bar-width-wrapper mobile-new-two-center">
 				<div class="form-group form-group-action">
 					<button class="btn btn-green">Check Availability</button></a>
 				</div>
 			</form>
 		</div>
 		<!-- /form-responsive -->
+	</div>
 	</div>
 </div>
 </nav>
