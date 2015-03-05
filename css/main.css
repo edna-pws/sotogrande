@@ -6898,6 +6898,7 @@ footer:after {
 }
 .contact-form-height.form-control {
   height: 45px;
+  border-radius: 0px !important;
 }
 .contact-form-height.form-control:focus {
   border: #c7e8d7 1px solid;
