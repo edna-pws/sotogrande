@@ -10,7 +10,6 @@
       <title>Soto Grande Hotel | </title>
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="styles/bootstrap.min.css">
       <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
       <link rel="stylesheet" href="owl-carousel/owl.theme.css">
@@ -35,7 +34,7 @@
 	      </a>
 	    </div>
 
-	    <div class="collapse navbar-collapse" id="nav-collapse">
+	    <div class="collapse navbar-collapse b0" id="nav-collapse">
 	      <ul class="nav navbar-nav">
 	        <li><a href="rooms.php">rooms</a></li>
 	        <li><a href="meeting.php">meeting and banquet</a></li>
