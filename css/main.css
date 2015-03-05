@@ -7937,6 +7937,10 @@ dd.p-0 {
   padding: 8px;
   padding-bottom: 0px;
 }
+.mainrooms-bg:hover,
+.mainrooms-bg:focus {
+  text-decoration: none !important;
+}
 .rooms-caption {
   background-color: #4a8666;
   color: #fff;
@@ -7952,9 +7956,6 @@ dd.p-0 {
   color: #fff;
   background-color: #337351;
   text-decoration: none !important;
-}
-.mainrooms-list {
-  margin-left: 81px;
 }
 #subscribe-wrapper {
   z-index: 9999;
