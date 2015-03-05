@@ -7055,11 +7055,11 @@ dd.p-0 {
 }
 .home-slider-left {
   top: 500px !important;
-  margin-right: 0px;
+  left: 0px !important;
 }
 .home-control-right {
   top: 500px !important;
-  margin-right: 0px;
+  margin-right: 0px !important;
 }
 .navbar {
   margin-bottom: 0;
