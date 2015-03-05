@@ -6931,7 +6931,7 @@ footer:after {
 }
 @media (max-width: 640px) {
   .rwd-font {
-    font-size: 15px !important;
+    font-size: 13px !important;
   }
 }
 .submit {
