@@ -6803,7 +6803,13 @@ footer:after {
 }
 @media (min-width: 1024px) {
   .container-lg {
-    width: 1000%;
+    width: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .footer-full {
+    width: 59%;
+    float: right;
   }
 }
 .form-control {
