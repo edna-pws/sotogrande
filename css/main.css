@@ -6731,7 +6731,7 @@ a:hover {
 .social {
   float: right;
   list-style: none;
-  padding: 0px 0px !important;
+  padding: 0px 0px !important ;
 }
 .social:before,
 .social:after {
@@ -6899,6 +6899,9 @@ footer:after {
   footer {
     height: auto;
     text-align: center;
+  }
+  .social-responsive-modify {
+    margin-left: 20px;
   }
 }
 @media (max-width: 480px) {
