@@ -1,5 +1,5 @@
 <section class="section section-footer">
-	<div class="container-lg">
+	<div class="container-lg clearfix">
 		<div class="row">
 			<div class="col-sm-12 col-md-4 footer-location-modify">
 				<div class="footer-location">
@@ -37,14 +37,57 @@
 		</div>
 	</div>
 </section>
+<!-- footer_responsive -->
+<section class="section section-footer-responsive">
+	<div class="container-lg clearfix section-footer-responsive-wrapper">
+		<div class="row">
+			<div class="col-sm-12 col-md-4 footer-location-modify">
+				<div class="footer-location">
+					<h4 class="footer-title">SotoGrande</h4>
+					<p>Dapdap, Mactan Island, Lapu-Lapu City,</p>
+					<p>Cebu, Philippines</p>
+				</div>
+				<div class="col-md-6 footer-modify-phone">
+					<p>Phone: +63032 238 6590</p>
+				</div>
+			</div>
 
-	<footer>
+			<div class="col-sm-12 col-md-8 footer-modify-phone">
+				<div class="footer-connect">
+					<h3 class="title-bold text-right">Stay Connected</h3>
+					<ul class="social">
+						<li><a href="/"><span><i class="fa fa-facebook"></i></span></a></li>
+						<li><a href="/"><span><i class="fa fa-twitter"></i></span></a></li>
+						<li><a href="/"><span><i class="fa fa-linkedin"></i></span></a></li>
+						<li><a href="/"><span><i class="fa fa-google-plus"></i></span></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-12 p0 mt10">
+				<div class="col-md-6 pr0 footer-full footer-nav-center">
+					<ul class="nav navbar-nav m0 footer-modify-nav-responsive1">
+				        <li><a href="#">subscribe newsletter</a></li>
+				        <li><a href="#">contact</a></li>
+				        <li><a href="#">about</a></li>
+				     </ul>
+				     <ul class="nav navbar-nav m0 footer-modify-nav-responsive2">
+				        <li><a href="#">properties</a></li>
+				        <li><a href="#">sitemap</a></li>
+				     </ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- /end footer_responsive -->
+
+	<footer class="footer-pad-responsive">
 		<div class="container-lg clearfix">
 			<div class="pull-left">
 				<img src="images/icons/logo-xs.png" alt=""> © SotoGrande <?php echo date('Y'); ?>. All rights reserved. Privacy / Contact Us
 			</div>
 
-			<div class="pull-right">
+			<div class="pull-right footer-left-responsive">
 				designed and developed by: philwebservices.
 			</div>
 		</div>
