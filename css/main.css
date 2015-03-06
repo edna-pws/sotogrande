@@ -7486,9 +7486,6 @@ dd.p-0 {
   .navbar-nav {
     margin: 0px;
   }
-  #nav-collapse {
-    display: none !important;
-  }
 }
 @media (max-width: 768px) {
   .navbar-top {
