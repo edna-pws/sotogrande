@@ -6507,7 +6507,7 @@ a:hover {
 }
 @media (max-width: 1024px) {
   .copy-left .copy-left-center {
-    text-align: center !important;
+    text-align: center;
   }
 }
 @media (max-width: 1024px) and (min-width: 769px) {
