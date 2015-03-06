@@ -34,7 +34,7 @@
 	      </a>
 	    </div>
 
-	    <div class="collapse navbar-collapse b0" id="nav-collapse">
+	    <div class="collapse navbar-collapse b0 navbar-small-responsive" id="nav-collapse">
 	      <ul class="nav navbar-nav">
 	        <li><a href="rooms.php">rooms</a></li>
 	        <li><a href="meeting.php">meeting and banquet</a></li>
@@ -49,7 +49,7 @@
 	        <li><a href="promos.php">promos</a></li>
 	      </ul>
 
-	      <ul class="nav navbar-nav navbar-right">
+	      <ul class="nav navbar-nav navbar-right nav-responsive">
 	        <li><a href="photos.php"><img src="images/camera.png" class="img-camera" alt=""> Photos</a></li>
 	        <li><a href="locations.php">Location</a></li>
 	        <li><a href="subscribe.php" id="subscribe">Subscribe</a></li>

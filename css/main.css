@@ -6731,7 +6731,7 @@ a:hover {
 .social {
   float: right;
   list-style: none;
-  padding: 0px 0px !important ;
+  padding-left: 0;
 }
 .social:before,
 .social:after {
@@ -6899,9 +6899,6 @@ footer:after {
   footer {
     height: auto;
     text-align: center;
-  }
-  .social-responsive-modify {
-    margin-left: 20px;
   }
 }
 @media (max-width: 480px) {
@@ -7498,6 +7495,13 @@ dd.p-0 {
     padding-left: 0px;
     padding-right: 0px;
   }
+  .navbar .navbar-nav.navbar-right li,
+  .navbar .navbar-nav li {
+    margin-right: 0px;
+  }
+  .navbar-nav {
+    margin: 0px;
+  }
 }
 @media (max-width: 768px) {
   .navbar-top {
@@ -7505,12 +7509,37 @@ dd.p-0 {
     padding-left: 0px;
     padding-right: 0px;
   }
+  .navbar .navbar-nav.navbar-right li,
+  .navbar .navbar-nav li {
+    margin-right: 0px;
+  }
+  .navbar-nav {
+    margin: 0px;
+  }
 }
 @media (max-width: 640px) {
   .navbar-top {
     width: 100%;
     padding-left: 0px;
     padding-right: 0px;
+  }
+  .navbar-collapse {
+    margin-top: 32px;
+    padding: 0px;
+  }
+}
+@media (max-width: 480px) {
+  .nav-responsive li:nth-child(2) {
+    padding-top: 12px;
+  }
+  .nav-responsive li:nth-child(3) {
+    padding-top: 12px;
+  }
+  .nav-responsive li:nth-child(4) {
+    padding-top: 12px;
+  }
+  .navbar-collapse {
+    margin-top: 41px;
   }
 }
 .post:hover {
