@@ -87,191 +87,123 @@ footer{
 		}
 	}
 }
-@media (max-width: 1024px) {
+
+@media (min-width: 1024px) {
 	.section-footer-responsive {
 		display: none;
 	}
-	.section-footer-responsive-wrapper {
+	.footer-pad-responsive{
 		width: 100%;
 	}
-	.container-lg {
+	.section-footer-bottom-responsive {
 		width: 100%;
 	}
-	.social {
-		padding: 0px !important;
+	.footer-modify-nav {
+		width: 100%;
+	}
+	.nav > li {
+		float: right;
+	}
+	.footer-nav-center {
+		width: 100%;
 	}
 }
 
 @media (max-width: 768px) {
-	.row {
-		text-align: center;
-	}
-	.footer-full {
+	.footer-pad-responsive{
 		width: 100%;
 	}
-	.footer-modify-phone {
-		float: left;
+	.section-footer-bottom-responsive {
 		width: 100%;
-		padding-top: 20px;
-	}
-	.footer-location-modify {
-		width: 100%;
-	}
-	.title-bold{
-		width: 100%;
-  		text-align: center;
-	}
-	.social {
-		text-align: center;
-  		width: 63%;
-	}
-	.footer-nav-center {
-		width: 100%;
-		display: block;
-		float: left;
 	}
 	.footer-modify-nav {
 		width: 100%;
-		padding: 0px 76px;
-		float: left;
 	}
 	.nav > li {
-		float: left;
+		float: right;
+	}
+	.footer-nav-center {
+		width: 100%;
+	}
+	.footer-modify-phone {
+		width: 50%;
+		margin-top: 40px;
+	}
+	.footer-location-modify {
+		width: 50%;
+	}
+	.navbar-nav > li a {
+		font-size: 13px !important;
+	}
+	.section-footer {
+		padding-bottom: 30px;
+	}
+	.social-responsive-medium {
+		float: right;
 	}
 }
 
 @media (max-width: 640px) {
-	
-	.footer-section {
+	.footer-nav-responsive {
 		display: none;
 	}
-	.footer-section-responsive {
-		display: block;
-	}
-	.row {
+	.footer-pad-responsive {
 		text-align: center;
-	}
-	.footer-full {
-		width: 100%;
-		padding: 0px 141px;
-	}
-	.footer-modify-phone {
-		float: left;
-		width: 100%;
-		padding-top: 20px;
 	}
 	.footer-location-modify {
 		width: 100%;
 	}
-	.title-bold{
+	.footer-modify-phone {
+		text-align: center;
 		width: 100%;
-  		text-align: center;
 	}
 	.social {
 		text-align: center;
-  		width: 100%;
-  		margin-left: 125px;
+		width: 100%;
+		padding: 0px 205px;
 	}
 	.nav > li {
 		float: left;
-	}
-	.footer-modify-nav-responsive1	li > a {
-			line-height: 0px;
-	}
-	.footer-modify-nav-responsive2	li > a {
-			line-height: 0px;
-	}
-	
-	.footer-modify-nav {
-		padding: 0px;
+		padding: 0px 6px;
 	}
 	.pull-left {
 		width: 100%;
 	}
 	.pull-right {
 		width: 100%;
-		float: left;
-		padding-left: 50px;
 	}
-	.footer-pad-responsive {
-		height: auto !important;
-	}
-	.container-lg {
-		text-align: center !important;
-	}
-}
-
-@media (max-width: 480px) {
-	
-	.section-footer-responsive-wrapper {
-		width: 92% !important;
-  		padding: 0px 20px !important;
-	}
-	.section-footer {
-		display: none;
-	}
-	.section-footer-responsive {
-		display: block;
+	footer {
+		height: auto;
 		text-align: center;
 	}
-	.social {
-		margin: 0px 39px;
-		padding: 0px;
+}
+@media (max-width: 480px) {
+	.social-responsive {
+		padding: 0px 125px;
 	}
-	.footer-modify-nav-responsive1 {
-		padding: 0px 33px;
-
-		li > a{
-			line-height: 0px;
-		}
+	.nav > li {
+		padding: 0px 0px;
+	}
+	.footer-nav-responsive {
+		display: block;
+		text-align: center;
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.section-footer .navbar-nav {
+		  padding: 0px 39px;
 	}
 	.footer-modify-nav-responsive2 {
-		padding: 0px 119px;
-
-		li > a{
-			line-height: 0px;
-		}
+		  padding: 0px 116px !important;
 	}
-	.footer-nav-center {
-		margin-top: 20px;
-		margin-top: 20px;
-  		padding: 0px 51px;
-	}
-	.footer-pad-responsive {
-		height: auto !important;
-	}
-	.pull-right {
-		float: left !important;
-		padding-left: 50px !important;
-	}
-	.footer-pad-responsive {
-		padding: 0px 45px !important;
+	.navbar-nav > li a {
+		line-height: 0px;
 	}
 }
 
 @media (min-width: 320px) {
-	.section-footer {
-		display: none;
-	}
-	.section-footer-responsive {
-		display: block;
-		
-	}
-	.social {
-		padding: 0px 82px !important;
-	}
-	.navbar-nav {
-		padding: 0px;
-		margin: 0px;
-
-		li > a {
-			font-size: 13px !important;
-		}
-	}
-	.footer-modify-nav-responsive2 {
-		padding: 0px 84px;
-	}
-	.footer-pad-responsive {
-		  padding: 10px 5px !important;
+	.social-responsive {
+		padding: 0px 85px;
 	}
 }
+

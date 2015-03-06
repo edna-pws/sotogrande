@@ -6814,180 +6814,119 @@ footer:after {
     text-align: center;
   }
 }
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
   .section-footer-responsive {
     display: none;
   }
-  .section-footer-responsive-wrapper {
+  .footer-pad-responsive {
     width: 100%;
   }
-  .container-lg {
+  .section-footer-bottom-responsive {
     width: 100%;
   }
-  .social {
-    padding: 0px !important;
-  }
-}
-@media (max-width: 768px) {
-  .row {
-    text-align: center;
-  }
-  .footer-full {
+  .footer-modify-nav {
     width: 100%;
   }
-  .footer-modify-phone {
-    float: left;
-    width: 100%;
-    padding-top: 20px;
-  }
-  .footer-location-modify {
-    width: 100%;
-  }
-  .title-bold {
-    width: 100%;
-    text-align: center;
-  }
-  .social {
-    text-align: center;
-    width: 63%;
+  .nav > li {
+    float: right;
   }
   .footer-nav-center {
     width: 100%;
-    display: block;
-    float: left;
+  }
+}
+@media (max-width: 768px) {
+  .footer-pad-responsive {
+    width: 100%;
+  }
+  .section-footer-bottom-responsive {
+    width: 100%;
   }
   .footer-modify-nav {
     width: 100%;
-    padding: 0px 76px;
-    float: left;
   }
   .nav > li {
-    float: left;
+    float: right;
+  }
+  .footer-nav-center {
+    width: 100%;
+  }
+  .footer-modify-phone {
+    width: 50%;
+    margin-top: 40px;
+  }
+  .footer-location-modify {
+    width: 50%;
+  }
+  .navbar-nav > li a {
+    font-size: 13px !important;
+  }
+  .section-footer {
+    padding-bottom: 30px;
+  }
+  .social-responsive-medium {
+    float: right;
   }
 }
 @media (max-width: 640px) {
-  .footer-section {
+  .footer-nav-responsive {
     display: none;
   }
-  .footer-section-responsive {
-    display: block;
-  }
-  .row {
+  .footer-pad-responsive {
     text-align: center;
-  }
-  .footer-full {
-    width: 100%;
-    padding: 0px 141px;
-  }
-  .footer-modify-phone {
-    float: left;
-    width: 100%;
-    padding-top: 20px;
   }
   .footer-location-modify {
     width: 100%;
   }
-  .title-bold {
-    width: 100%;
+  .footer-modify-phone {
     text-align: center;
+    width: 100%;
   }
   .social {
     text-align: center;
     width: 100%;
-    margin-left: 125px;
+    padding: 0px 205px;
   }
   .nav > li {
     float: left;
-  }
-  .footer-modify-nav-responsive1 li > a {
-    line-height: 0px;
-  }
-  .footer-modify-nav-responsive2 li > a {
-    line-height: 0px;
-  }
-  .footer-modify-nav {
-    padding: 0px;
+    padding: 0px 6px;
   }
   .pull-left {
     width: 100%;
   }
   .pull-right {
     width: 100%;
-    float: left;
-    padding-left: 50px;
   }
-  .footer-pad-responsive {
-    height: auto !important;
-  }
-  .container-lg {
-    text-align: center !important;
+  footer {
+    height: auto;
+    text-align: center;
   }
 }
 @media (max-width: 480px) {
-  .section-footer-responsive-wrapper {
-    width: 92% !important;
-    padding: 0px 20px !important;
+  .social-responsive {
+    padding: 0px 125px;
   }
-  .section-footer {
-    display: none;
+  .nav > li {
+    padding: 0px 0px;
   }
-  .section-footer-responsive {
+  .footer-nav-responsive {
     display: block;
     text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
   }
-  .social {
-    margin: 0px 39px;
-    padding: 0px;
-  }
-  .footer-modify-nav-responsive1 {
-    padding: 0px 33px;
-  }
-  .footer-modify-nav-responsive1 li > a {
-    line-height: 0px;
+  .section-footer .navbar-nav {
+    padding: 0px 39px;
   }
   .footer-modify-nav-responsive2 {
-    padding: 0px 119px;
+    padding: 0px 116px !important;
   }
-  .footer-modify-nav-responsive2 li > a {
+  .navbar-nav > li a {
     line-height: 0px;
-  }
-  .footer-nav-center {
-    margin-top: 20px;
-    padding: 0px 51px;
-  }
-  .footer-pad-responsive {
-    height: auto !important;
-  }
-  .pull-right {
-    float: left !important;
-    padding-left: 50px !important;
-  }
-  .footer-pad-responsive {
-    padding: 0px 45px !important;
   }
 }
 @media (min-width: 320px) {
-  .section-footer {
-    display: none;
-  }
-  .section-footer-responsive {
-    display: block;
-  }
-  .social {
-    padding: 0px 82px !important;
-  }
-  .navbar-nav {
-    padding: 0px;
-    margin: 0px;
-  }
-  .navbar-nav li > a {
-    font-size: 13px !important;
-  }
-  .footer-modify-nav-responsive2 {
-    padding: 0px 84px;
-  }
-  .footer-pad-responsive {
-    padding: 10px 5px !important;
+  .social-responsive {
+    padding: 0px 85px;
   }
 }
 .form-control {
@@ -7495,9 +7434,6 @@ dd.p-0 {
     width: 89% !important;
     margin: 0px !important;
     padding-left: 15px !important;
-  }
-  #collapse {
-    display: none;
   }
 }
 @media (max-width: 768px) and (min-width: 641px) {
