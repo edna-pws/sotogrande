@@ -6230,6 +6230,12 @@ a:hover {
   text-align: center;
   display: inline-block;
 }
+@media (max-width: 768px) {
+  .section-banner {
+    margin-top: 11em !important;
+    background: url('../images/banner.jpg') no-repeat 0 -34em;
+  }
+}
 @media (max-width: 480px) {
   .banner-sub {
     margin-top: 31px;
@@ -7829,6 +7835,11 @@ dd.p-0 {
 .section-banner .banner-sub {
   margin-top: 3em;
 }
+@media (min-width: 1024px) {
+  .banner-sub {
+    margin-top: 107px !important;
+  }
+}
 .section-about .copy {
   width: 80%;
   margin: auto;
@@ -8335,6 +8346,27 @@ dd.p-0 {
   }
   .thumbnail-banner-lg {
     padding: 19px !important;
+  }
+  .thumbnail-banner h1 {
+    font-size: 13px;
+  }
+}
+@media (max-width: 768px) {
+  .thumbnail-banner-lg {
+    padding: 12px !important;
+  }
+  .promos-caption-header {
+    font-size: 19px;
+  }
+}
+@media (max-width: 600px) {
+  .thumbnail-banner-lg {
+    padding: 19px !important;
+  }
+  .promos-caption-header {
+    width: 196px;
+    font-weight: bold;
+    padding-left: 10px;
   }
 }
 .single-return {

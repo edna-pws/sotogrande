@@ -63,7 +63,7 @@ include_once 'header.php'; ?>
 	    </div><!--/.item -->
 	    <div class="item">
 			<div class="thumbnail promos-thumbnail">
-			  <div class="thumbnail-banner promos-thumbnail-responsive"><h1>Day Tour</h1></div>
+			  <div class="thumbnail-banner thumbnail-banner-lg"><h1>Day Tour</h1></div>
 			  <img src="images/placeholder/soto-promos_03.jpg" alt="soto-promos_03">
 			  <div class="caption promos-caption">
 			    <h3 class="promos-caption-header">All Inclusive Experience</h3>
