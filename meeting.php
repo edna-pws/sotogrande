@@ -39,7 +39,7 @@
 							<img src="images/img6.jpg" alt="">
 						</div>
 					</div>
-					<div class="col-md-7 media">
+					<div class="col-md-7 media meeting-col">
 						<h4 class="media-heading">banquet foods &amp; arrangements</h4>
 						<div class="media-par">
 							<p>
