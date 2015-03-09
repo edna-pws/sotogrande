@@ -6232,13 +6232,23 @@ a:hover {
 }
 @media (max-width: 768px) {
   .section-banner {
-    margin-top: 11em !important;
-    background: url('../images/banner.jpg') no-repeat 0 -34em;
+    margin-top: 10em !important;
+  }
+  .banner {
+    height: auto !important;
+  }
+  .banner-sub {
+    background-color: #eee;
   }
 }
 @media (max-width: 480px) {
   .banner-sub {
     margin-top: 31px;
+  }
+}
+@media (max-width: 384px) {
+  .banner-sub {
+    margin-top: 120px !important;
   }
 }
 .banner-subtitle {
@@ -7551,95 +7561,6 @@ dd.p-0 {
   }
   .navbar-collapse {
     margin-top: 41px;
-  }
-}
-@media (max-width: 320px) {
-  .navbar-form-wrapper .form-group {
-    margin: 10px 0px;
-  }
-  .nav-bar-width-wrapper {
-    margin: 0px !important;
-    padding-left: 9px !important;
-  }
-  .nav-responsive-one {
-    margin: 0px;
-    padding: 0px 0px;
-    width: 50%;
-    float: left;
-  }
-  .nav-responsive-one li {
-    width: 100%;
-  }
-  .nav-responsive-one > li a {
-    font-size: 11px !important;
-  }
-  .nav-responsive-one > li:nth-child(2) {
-    width: 160px;
-  }
-  .nav-responsive-two {
-    width: 50%;
-    float: left;
-  }
-  .nav-responsive-two li:nth-child(1) {
-    width: 50% !important;
-    margin-left: 15px;
-  }
-  .nav-responsive-two li > a {
-    padding: 0px 0px !important;
-  }
-  .nav-responsive-two li:nth-child(2) {
-    width: 40%;
-    float: left;
-  }
-  .nav-responsive-two li:nth-child(3) {
-    width: 50%;
-    float: left;
-    margin-left: 15px;
-  }
-  .nav-responsive-two li:nth-child(4) {
-    width: 40%;
-    float: left;
-  }
-  .nav-responsive-two li:nth-child(5) {
-    width: 100%;
-    float: left;
-    padding-left: 39px;
-  }
-  .nav-responsive-two .disabled {
-    font-size: 12px !important;
-    font-weight: bold;
-  }
-  .navbar-brand {
-    padding: 6px 6px !important;
-  }
-  .mobile-new {
-    width: 303px;
-  }
-  .mobile-new-two {
-    width: 100% !important;
-  }
-  .form-date {
-    width: 50%;
-  }
-  .form {
-    width: 100% !important;
-  }
-  .custom-select {
-    width: 47% !important;
-  }
-  .navbar-form-wrapper form {
-    width: 100%;
-  }
-  .mobile-new-two-inside {
-    width: 50% !important;
-  }
-  .mobile-new-two-center {
-    width: 45% !important;
-    display: block;
-    text-align: center;
-  }
-  .skin-white {
-    padding-top: 50px;
   }
 }
 .post:hover {
