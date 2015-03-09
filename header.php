@@ -124,7 +124,7 @@
 				</div>
 			</form>
 			<form action="" class="nav-bar-width-wrapper mobile-new-two">
-				<div class="form-group custom-select mr2">
+				<div class="form-group custom-select mr2 mobile-new-two-inside">
 					<select name="" id="" class="form-control">
 						<option value="">1 Adult</option>
 						<option value="">1</option>
