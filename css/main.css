@@ -6534,15 +6534,15 @@ a:hover {
      -moz-hyphens: auto;
       -ms-hyphens: auto;
           hyphens: auto;
-  text-align: center;
 }
 .copy-left p {
   text-align: left;
 }
-@media (max-width: 1024px) {
-  .copy-left .copy-left-center {
-    text-align: center;
-  }
+.copy-left .single-par p {
+  text-align: left;
+}
+.copy-left .copy-left-center {
+  text-align: left !important;
 }
 @media (max-width: 1024px) and (min-width: 769px) {
   .copy-left .copy-left-center {
@@ -6575,6 +6575,14 @@ a:hover {
 @media (max-width: 1024px) {
   .post-actions-marg {
     padding-top: 28px;
+  }
+}
+@media (max-width: 736px) {
+  .media-par {
+    font-size: 13px;
+  }
+  .media-heading {
+    font-size: 21px;
   }
 }
 /*!
@@ -7280,7 +7288,7 @@ dd.p-0 {
   margin-right: 0px !important;
   height: 35px !important;
 }
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .map-controls {
     width: 209px;
     padding: 2px;
@@ -8338,17 +8346,12 @@ dd.p-0 {
     padding: 0px 85px;
   }
   .meeting-view {
-    text-align: center;
-  }
-  .post-actions {
-    width: 100%;
-    padding: 0px 103px;
+    margin-left: 100px;
   }
 }
 @media (max-width: 384px) {
   .section-media-space {
     width: 100%;
-    padding-left: 0px;
   }
   .meeting-col {
     width: 100%;
@@ -8360,13 +8363,40 @@ dd.p-0 {
   }
   .meeting-view {
     text-align: center;
-  }
-  .post-actions {
-    width: 100%;
-    padding: 0px 103px;
+    margin-left: 105px;
   }
   .container {
     width: 100%;
+  }
+  .post-img {
+    width: 349px !important;
+    min-width: 349px !important;
+    height: 258px !important;
+    min-height: 256px !important;
+  }
+  .banner-subtitle {
+    line-height: 26px;
+  }
+}
+@media (max-width: 736px) {
+  .post-img {
+    width: 396px !important;
+    min-width: 396px !important;
+  }
+  .media-heading {
+    font-size: 21px;
+  }
+}
+@media (max-width: 414px) {
+  .row {
+    padding: 0px 0px;
+  }
+  .post-img {
+    width: 380px !important;
+    min-width: 380px !important;
+  }
+  .meeting-with-space {
+    padding: 0px 0px;
   }
 }
 .promos-heading-title {

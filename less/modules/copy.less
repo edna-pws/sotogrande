@@ -8,7 +8,6 @@
 		margin-bottom: 15px;
 		word-wrap: break-all;
 		hyphens: auto;
-		text-align: center;
 	}
 }
 
@@ -16,11 +15,12 @@
 	p {
 		text-align: left;
 	}
-@media (max-width: 1024px) {
-	.copy-left-center {
-		text-align: center;
-	}
+.single-par p {
+	text-align: left;
 }	
+.copy-left-center {
+	text-align: left !important;
+}
 @media (max-width: 1024px) and (min-width: 769px) {
 	.copy-left-center {
 		text-align: center !important;
@@ -53,5 +53,13 @@
 @media (max-width: 1024px) {
 	.post-actions-marg {
 		padding-top: 28px;
+	}
+}
+@media (max-width: 736px) {
+	.media-par {
+		font-size: 13px;
+	}
+	.media-heading {
+		font-size: 21px;
 	}
 }
