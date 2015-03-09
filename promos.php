@@ -15,12 +15,12 @@ include_once 'header.php'; ?>
 	</p>
 </div>
 
-<section class="section skin-white section-promos section-bottom-line">
-	<div class="carousel-container">
+<section class="section skin-white section-promos section-bottom-line promos-thumbnail-responsive">
+	<div class="carousel-container rwd-large-device">
 	  <div id="carousel-promo" class="owl-carousel owl-theme">
 	    <div class="item">
 			<div class="thumbnail promos-thumbnail">
-			  <div class="thumbnail-banner"><h1>Day Tour</h1></div>
+			  <div class="thumbnail-banner thumbnail-banner-lg"><h1>Day Tour</h1></div>
 			  <img src="images/placeholder/soto-promos_03.jpg" alt="soto-promos_03">
 			  <div class="caption promos-caption">
 			    <h3 class="promos-caption-header">All Inclusive Experience</h3>
@@ -29,7 +29,7 @@ include_once 'header.php'; ?>
 				3 Days/2 Nights Accommodation + Cebu City Tour
 				Minimum of 2 persons at Php. 7,645.00/person
 				</p>
-				<p class="promos-btn-wrapper"><a href="#" class="btn btn-primary promos-btn" role="button">learn more</a></p>
+				<p class="promos-btn-wrapper promos-button-responsive"><a href="#" class="btn btn-primary promos-btn" role="button">learn more</a></p>
 			  </div>
 			</div>
 	    </div><!--/.item -->
@@ -43,7 +43,7 @@ include_once 'header.php'; ?>
 										3 Days/2 Nights Accommodation + Cebu City Tour
 										Minimum of 2 persons at Php. 7,645.00/person
 				</p>
-		        <p class="promos-btn-wrapper"><a href="#" class="btn btn-primary promos-btn" role="button">learn more</a></p>
+		        <p class="promos-btn-wrapper promos-button-responsive"><a href="#" class="btn btn-primary promos-btn" role="button">learn more</a></p>
 		      </div>
 		    </div>
 	    </div><!--/.item -->
@@ -57,13 +57,13 @@ include_once 'header.php'; ?>
 										3 Days/2 Nights Accommodation + Cebu City Tour
 										Minimum of 2 persons at Php. 7,645.00/person
 						</p>
-		        <p class="promos-btn-wrapper"><a href="#" class="btn btn-primary promos-btn" role="button">learn more</a></p>
+		        <p class="promos-btn-wrapper promos-button-responsive"><a href="#" class="btn btn-primary promos-btn" role="button">learn more</a></p>
 		      </div>
 		    </div>
 	    </div><!--/.item -->
 	    <div class="item">
 			<div class="thumbnail promos-thumbnail">
-			  <div class="thumbnail-banner"><h1>Day Tour</h1></div>
+			  <div class="thumbnail-banner promos-thumbnail-responsive"><h1>Day Tour</h1></div>
 			  <img src="images/placeholder/soto-promos_03.jpg" alt="soto-promos_03">
 			  <div class="caption promos-caption">
 			    <h3 class="promos-caption-header">All Inclusive Experience</h3>
@@ -72,7 +72,7 @@ include_once 'header.php'; ?>
 				3 Days/2 Nights Accommodation + Cebu City Tour
 				Minimum of 2 persons at Php. 7,645.00/person
 				</p>
-				<p class="promos-btn-wrapper"><a href="#" class="btn btn-primary promos-btn" role="button">learn more</a></p>
+				<p class="promos-btn-wrapper promos-button-responsive"><a href="#" class="btn btn-primary promos-btn" role="button">learn more</a></p>
 			  </div>
 			</div>
 	    </div><!--/.item -->
@@ -86,7 +86,7 @@ include_once 'header.php'; ?>
 										3 Days/2 Nights Accommodation + Cebu City Tour
 										Minimum of 2 persons at Php. 7,645.00/person
 				</p>
-		        <p class="promos-btn-wrapper"><a href="#" class="btn btn-primary promos-btn" role="button">learn more</a></p>
+		        <p class="promos-btn-wrapper promos-button-responsive"><a href="#" class="btn btn-primary promos-btn" role="button">learn more</a></p>
 		      </div>
 		    </div>
 	    </div><!--/.item -->
@@ -100,13 +100,13 @@ include_once 'header.php'; ?>
 										3 Days/2 Nights Accommodation + Cebu City Tour
 										Minimum of 2 persons at Php. 7,645.00/person
 						</p>
-		        <p class="promos-btn-wrapper"><a href="#" class="btn btn-primary promos-btn" role="button">learn more</a></p>
+		        <p class="promos-btn-wrapper promos-button-responsive"><a href="#" class="btn btn-primary promos-btn" role="button">learn more</a></p>
 		      </div>
 		    </div>
 	    </div><!--/.item -->
 	    <div class="item">
 			<div class="thumbnail promos-thumbnail">
-			  <div class="thumbnail-banner"><h1>Day Tour</h1></div>
+			  <div class="thumbnail-banner thumbnail-banner-lg"><h1>Day Tour</h1></div>
 			  <img src="images/placeholder/soto-promos_03.jpg" alt="soto-promos_03">
 			  <div class="caption promos-caption">
 			    <h3 class="promos-caption-header">All Inclusive Experience</h3>
@@ -115,7 +115,7 @@ include_once 'header.php'; ?>
 				3 Days/2 Nights Accommodation + Cebu City Tour
 				Minimum of 2 persons at Php. 7,645.00/person
 				</p>
-				<p class="promos-btn-wrapper"><a href="#" class="btn btn-primary promos-btn" role="button">learn more</a></p>
+				<p class="promos-btn-wrapper promos-button-responsive"><a href="#" class="btn btn-primary promos-btn" role="button">learn more</a></p>
 			  </div>
 			</div>
 	    </div><!--/.item -->
@@ -129,7 +129,7 @@ include_once 'header.php'; ?>
 										3 Days/2 Nights Accommodation + Cebu City Tour
 										Minimum of 2 persons at Php. 7,645.00/person
 						</p>
-		        <p class="promos-btn-wrapper"><a href="#" class="btn btn-primary promos-btn" role="button">learn more</a></p>
+		        <p class="promos-btn-wrapper promos-button-responsive"><a href="#" class="btn btn-primary promos-btn" role="button">learn more</a></p>
 		      </div>
 		    </div>
 	    </div><!--/.item -->
@@ -143,7 +143,7 @@ include_once 'header.php'; ?>
 										3 Days/2 Nights Accommodation + Cebu City Tour
 										Minimum of 2 persons at Php. 7,645.00/person
 						</p>
-		        <p class="promos-btn-wrapper"><a href="#" class="btn btn-primary promos-btn" role="button">learn more</a></p>
+		        <p class="promos-btn-wrapper promos-button-responsive"><a href="#" class="btn btn-primary promos-btn" role="button">learn more</a></p>
 		      </div>
 		    </div>
 	    </div><!--/.item -->

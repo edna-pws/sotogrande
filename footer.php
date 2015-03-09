@@ -12,7 +12,7 @@
 			<div class="col-sm-12 col-md-8 footer-modify-phone">
 				<div class="footer-connect">
 					<h3 class="title-bold text-right">Stay Connected</h3>
-						<ul class="social social-responsive social-responsive-medium">
+						<ul class="social social-responsive-lg social-responsive-medium social-responsive-s">
 							<li><a href="/"><span><i class="fa fa-facebook"></i></span></a></li>
 							<li><a href="/"><span><i class="fa fa-twitter"></i></span></a></li>
 							<li><a href="/"><span><i class="fa fa-linkedin"></i></span></a></li>

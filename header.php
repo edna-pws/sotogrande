@@ -20,7 +20,7 @@
 
 <nav class="navbar navbar-default navbar-fixed-top">
 
-    <div class="navbar-top">
+    <div class="navbar-top nav-responsive">
 	    <div class="container-fluid">
 	    	<div class="navbar-header">
 	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse">
@@ -35,7 +35,7 @@
 	    </div>
 
 	    <div class="collapse navbar-collapse b0 navbar-small-responsive" id="nav-collapse">
-	      <ul class="nav navbar-nav">
+	      <ul class="nav navbar-nav nav-responsive-one">
 	        <li><a href="rooms.php">rooms</a></li>
 	        <li><a href="meeting.php">meeting and banquet</a></li>
 	        <li class="dropdown">
@@ -49,7 +49,7 @@
 	        <li><a href="promos.php">promos</a></li>
 	      </ul>
 
-	      <ul class="nav navbar-nav navbar-right nav-responsive">
+	      <ul class="nav navbar-nav navbar-right nav-responsive-two">
 	        <li><a href="photos.php"><img src="images/camera.png" class="img-camera" alt=""> Photos</a></li>
 	        <li><a href="locations.php">Location</a></li>
 	        <li><a href="subscribe.php" id="subscribe">Subscribe</a></li>
