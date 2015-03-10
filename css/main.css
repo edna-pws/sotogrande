@@ -6885,21 +6885,23 @@ footer:after {
     width: 100%;
   }
   .section-footer-bottom-responsive {
-    width: 100%;
+    width: 100% !important;
   }
   .footer-modify-nav {
-    width: 75%;
+    width: 100%;
     margin-top: 0px !important;
     padding-top: 0px !important;
   }
   .nav > li {
-    float: right;
+    float: left;
   }
-  .footer-nav-center {
-    width: 100%;
+  .col-md-6.footer-nav-center {
+    width: 77% !important;
+    float: left;
+    padding: 0px 0px;
   }
   .footer-modify-phone {
-    width: 52%;
+    width: 50%;
     float: left;
     margin-top: 20px;
   }
@@ -6915,6 +6917,9 @@ footer:after {
   .social-responsive-medium {
     float: right;
     padding: 0px 0px !important;
+  }
+  .footer-modify-nav li:nth-child(1) {
+    margin-left: 0px !important;
   }
 }
 @media (max-width: 600px) (min-width: 569px) {
@@ -8529,6 +8534,8 @@ dd.p-0 {
   .carousel-container {
     width: 100% !important;
   }
+}
+@media (max-width: 1024px) and (min-width: 769px) {
   .promos-btn-wrapper {
     width: 75% !important;
   }
@@ -8539,7 +8546,7 @@ dd.p-0 {
     font-size: 13px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 737px) {
   .thumbnail-banner-lg {
     padding: 12px !important;
   }
@@ -8547,67 +8554,11 @@ dd.p-0 {
     font-size: 19px;
   }
 }
-@media (max-width: 600px) {
-  .thumbnail-banner-lg {
-    padding: 19px !important;
-  }
-  .promos-caption-header {
-    width: 196px;
-    font-weight: bold;
-    padding-left: 10px;
-  }
-}
-@media (max-width: 384px) {
-  .promos-caption-header {
-    width: 100%;
-  }
-}
-@media (max-width: 736px) {
+@media (max-width: 736px) and (min-width: 601px) {
   .promos-caption-header {
     width: 223px;
     font-weight: bold;
     padding-left: 57px;
-  }
-}
-@media (max-width: 568px) {
-  .promos-caption-header {
-    width: 165px !important;
-    font-weight: bold;
-    padding-left: 29px !important;
-  }
-}
-@media (max-width: 414px) {
-  .promos-caption-header {
-    width: 100%;
-    padding-left: 0px;
-  }
-}
-@media (max-width: 667px) {
-  .thumbnail-banner-lg {
-    padding: 18px !important;
-  }
-  .promos-caption-header {
-    width: 100%;
-    padding-left: 0px;
-    font-size: 16px;
-  }
-}
-@media (max-width: 375px) {
-  .thumbnail-banner-lg {
-    padding: 18px !important;
-  }
-  .promos-caption-header {
-    width: 100%;
-    padding-left: 0px;
-    font-size: 20px;
-    font-weight: normal;
-  }
-}
-@media (max-width: 320px) {
-  .promos-caption-header {
-    width: 100% !important;
-    padding-left: 0px !important;
-    font-size: 20px;
   }
 }
 .single-return {
