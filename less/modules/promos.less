@@ -115,43 +115,50 @@
  }
 
  @media (max-width: 600px) and (min-width: 668px) {
-    .thumbnail-banner-lg {
-      padding: 12px !important;
-  }
-
- @media (max-width: 667px) and (min-width: 567px) {
-    .thumbnail-banner-lg {
-    padding: 18px !important;
-  }
-    .promos-caption-header {
+     .promos-caption-header {
       width: 100%;
       padding-left: 0px;
-      font-size: 16px;
+      font-size: 21px !important;
     }
 }
 
- @media (max-width: 568px) and (min-width: 541px) {
+ @media (max-width: 667px) and (min-width: 567px) {
+    .thumbnail-banner-lg {
+      padding: 18px !important;
+  }
     .promos-caption-header {
-      width: 165px !important;
-      font-weight: bold;
-      padding-left: 29px !important;
+      width: 89%;
+      padding-left: 21px;
+      font-size: 21px;
     }
- }
+    .promos-btn-wrapper{
+    width: 75% !important;
+  }
+}
 
-@media (max-width: 540px) and (min-width: 415px) {
-    
+ @media (max-width: 568px) and (min-width: 415px) {
+    .promos-caption-header {
+      width: 100% !important;
+      font-weight: normal;
+      padding-left: 0px !important;
+    }
  }
 
 @media (max-width: 414px) and (min-width: 385px) {
     .promos-caption-header {
       width: 100%;
       padding-left: 0px;
+        font-size: 22px;
     }
   }
 
  @media (max-width: 384px) and (min-width: 375px) {
     .promos-caption-header {
       width: 100%;
+      font-size: 22px;
+    }
+    .promos-heading-content {
+      padding: 0px 20px;
     }
  }
 
@@ -162,14 +169,24 @@
     .promos-caption-header {
       width: 100%;
       padding-left: 0px;
-      font-size: 20px;
+      font-size: 22px;
       font-weight: normal;
     }
+  #carousel-promo .item {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
  @media (max-width: 320px) {
     .promos-caption-header {
       width: 100% !important;
-    padding-left: 0px !important;
-    font-size: 20px;
+      padding-left: 0px !important;
+      font-size: 20px;
+    }
+    .banner-sub {
+      margin-top: 56px !important;
+    }
+    .promos-heading-title {
+      margin-top: 10px;
     }
 }
