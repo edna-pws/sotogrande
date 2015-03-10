@@ -55,11 +55,11 @@
 		<div class="subscribe-box">
 			<div class="subscribe-box-title">Subscribe Now <i class="fa fa-close fa-subscribe" id="form-button"></i></div>
 			<div class="subscibe-box-inner">
-				<p>We'd love to stay in touch. Subscribe to our newsletter for news, images and offers.</p>
-				<div class="input-group">
-					<input type="text" class="input-subscribe form-control" placeholder="Email Address">
+				<p class="subs-button-par">We'd love to stay in touch. Subscribe to our newsletter for news, images and offers.</p>
+				<div class="input-group subs-button">
+					<input type="text" class="input-subscribe form-control subs-button-mail" placeholder="Email Address">
 					<div class="input-group-btn">
-						<button type="submit" class="btn btn-submit">Send</button>
+						<button type="submit" class="btn btn-submit subs-button-send">Send</button>
 					</div>
 				</div>
 			</div>

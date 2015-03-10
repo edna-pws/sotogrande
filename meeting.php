@@ -8,7 +8,7 @@
 <div class="section-meeting section-bottom-line bottom-gap">
 	<div class="container">
 		<section class="section skin-white section-list meeting-with-space">
-		<div class="post-block post-item">
+		<div class="post-block post-item section-meeting-list">
 				<div class="row">
 					<div class="col-md-5 section-media-space">
 						<div class="post-img">
@@ -32,11 +32,11 @@
 		</div>
 		</section>
 		<section class="section skin-white section-list meeting-no-space">
-		<div class="post-block post-item meeting-no-border">
+		<div class="post-block post-item meeting-no-border section-meeting-list-two">
 				<div class="row">
 					<div class="col-md-5 section-media-space">
 						<div class="post-img">
-							<img src="images/img6.jpg" alt="">
+							<img src="images/banquet.jpg" alt="">
 						</div>
 					</div>
 					<div class="col-md-7 media meeting-col">

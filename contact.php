@@ -67,7 +67,7 @@
 				</p>
 				<p class="col-md-5-header-par"><strong class="email-marg">email add</strong>
 					<br /><span class="col-md-5-header-pars email-height">info@sotograndehotelresort.com</span>
-					<br />reservations@sotograndehotelresort.com
+					<br /><span class="reserve-par">reservations@sotograndehotelresort.com</span>
 				</p>
 				<button type="button" class="btn btn-default btn-lg post-viewmap" href="#">
 				  <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> View Google Map

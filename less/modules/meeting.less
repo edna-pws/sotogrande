@@ -29,34 +29,69 @@
 	margin-top: 0px !important;
 }
 
-@media (max-width: 1024px) and (min-width: 769px) {
+@media (max-width: 1024px) and (min-width: 320px) {
+	.media-par {
+		text-align: justify;
+	}
+}
+
+@media (max-width: 1024px) and (min-width: 320px) {
+	.container {
+		width: 98%;
+	}
+	.section-meeting-list {
+		padding: 0;
+	}
+	.meeting-with-space {
+	  	padding: 50px 0;
+	}
+	.section-media-space {
+		padding-left: 20px;
+	}
+	.bottom-gap {
+	  	padding-bottom: 0px;
+	}
 	.banner {
 		margin-top: 182px;
 	}
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
 	.section-media-space {
 		margin-right: 50px;
 		width: 40% !important;
+		padding-bottom: 100px;
 	}
 	.meeting-col {
-		width: 45% !important;
+		width: 50% !important;
+	}
+	.meeting-view {
+		margin-top: 48px;
+	}
+	.media-par {
+		width: 100% !important;
+		line-height: 30px;
 	}
 }
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 601px) {
 	.section-media-space {
 		margin-right: 10px;
 		padding-left: 10px;
 		float: left;
-		width: 55%;
+		width: 48%;
 	}
 	.meeting-col {
-		width: 43%;
+		width: 50%;
 	}
 	.media-par {
-		width: 100%;
+		width: 100% !important;
 		line-height: 25px;
 	}
 	.meeting-view {
-		margin-top: 0px;
+		margin-top: 23px;
+	}
+	.media-heading {
+		font-size: 19px;
 	}
 }
 @media (max-width: 600px) {
@@ -93,24 +128,11 @@
 		text-align: center;
 		margin-left: 105px;
 	}
-	.container {
-		width: 100%;
-	}
-	.post-img {
-		width: 349px !important;
- 		min-width: 349px !important;
- 		height: 258px !important;
- 		min-height: 256px !important;
-	}
 	.banner-subtitle {
 		line-height: 26px;
 	}
 }
 @media (max-width: 736px) {
-	.post-img {
-		width: 396px !important;
-		min-width: 396px !important;
-	}
 	.media-heading {
 		font-size: 21px;
 	}
@@ -120,31 +142,17 @@
 	.row {
 		padding: 0px 0px;
 	}
-	.post-img {
-		width: 380px !important;
-  		min-width: 380px !important;
-	}
 	.meeting-with-space {
 		padding: 0px 0px;
 	}
 }
 
 @media (max-width: 667px) {
-	.post-img {
-		width: 359px !important;
-		min-width: 359px !important;
-	}
 	.media-heading {
 		font-size: 18px;
 	}
 }
 @media (max-width: 375px) {
-	.post-img {
-		width: 340px !important;
-		min-width: 340px !important;
-		height: 193px !important;
-  		min-height: 193px !important;
-	}
 	.media-heading {
 		font-size: 22px;
 	}
@@ -153,12 +161,6 @@
 	}
 }
 @media (max-width: 320px) {
-	.post-img {
-		width: 285px !important;
-		min-width: 285px !important;
-		height: 193px !important;
-  		min-height: 193px !important;
-	}
 	.media-heading {
 		font-size: 22px;
 	}
