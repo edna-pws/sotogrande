@@ -23,7 +23,7 @@
 			<div class="footer-nav-desktop">
 				<div class="col-md-12 p0 mt10">
 					<div class="col-md-6 footer-modify-phone">
-						<p>Phone: +63032 238 6590</p>
+						<p class="footer-phone">Phone: +63032 238 6590</p>
 					</div>
 					<div class="col-md-6 pr0 footer-full footer-nav-center">
 						<ul class="nav navbar-nav m0 footer-modify-nav">
