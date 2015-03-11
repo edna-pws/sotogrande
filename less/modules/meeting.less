@@ -115,20 +115,25 @@
 }
 
 @media (max-width: 600px) and (min-width: 569px) {
-	.section-media-space {
-		width: 100%;
+	.container {
+		width: 100% !important;
+  		padding: 0px 67px !important;
 	}
 	.meeting-col {
-		width: 100%;
-		text-align: center;
-		padding-top: 35px !important;
+		padding-top: 20px;
 	}
-	.row {
-		padding: 0px 85px;
-	}
-
 	.meeting-view {
-		margin-left: 100px;
+		margin: 0 auto;
+	}
+	.meeting-row {
+		text-align: center;
+	}
+	.section-media-space {
+		padding: 0px 100px;
+	}
+	.media-par {
+	  text-align: center;
+	  margin: 0 auto;
 	}
 }
 
@@ -158,12 +163,22 @@
 	}
 }
 
-@media (max-width: 384px) and (min-width: 320px) {
+@media (max-width: 384px) and (min-width: 321px) {
 	.meeting-img {
 		width: 357px !important;
   		min-width: 358px !important;
 	}
 }
+
+@media (min-width : 320px) {
+	.meeting-img {
+		  width: 294px !important;
+		  min-width: 295px !important;
+		  height: 214px !important;
+		  min-height: 200px !important;
+	}
+} 
+
 @media (max-width: 736px) {
 	.media-heading {
 		font-size: 21px;

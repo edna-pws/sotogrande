@@ -61,9 +61,9 @@
 					  <li role="presentation"><a href="#services" aria-controls="services" role="tab" data-toggle="tab">services</a></li>
 					</ul>
 
-					<div class="tab-content">
+					<div class="tab-content section-single-content">
 					  <div role="tabpanel" class="tab-pane active" id="facilities">
-					  	<div class="copy">
+					  	<div class="copy section-single-content-par">
 					  		<h4 class="copy-title">swimming pool</h4>
 					  		<p>
 					  			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
@@ -95,12 +95,12 @@
 					</div>
 			</div>
 
-			<div class="col-md-4">
+			<div class="col-md-4 single-properties-next">
 				<h4 class="title-bold">PROPERTY DETAILS</h4>
-					<p class="col-md-4-par">Dapdap, Mactan Island, Lapu-Lapu City, Cebu, Philippines</p>
+					<p class="col-md-4-par section-property-par-one">Dapdap, Mactan Island, Lapu-Lapu City, Cebu, Philippines</p>
 					<a href="#" class="btn btn-green">View Floor Plan</a>
-					 <ul class="list-group">
-					    <li class="list-group-item details-prop"><span class="glyphicon glyphicon-ok services-icon" aria-hidden="true"></span> Lorem ipsum dolor sit amet.</li>
+					 <ul class="list-group single-properties-list">
+					    <li class="list-group-item details-prop"><span class="glyphicon glyphicon-ok services-icon" aria-hidden="true"></span>Lorem ipsum dolor sit amet.</li>
 					    <li class="list-group-item details-prop"><span class="glyphicon glyphicon-ok services-icon" aria-hidden="true"></span>Dolor consectetur elit.</li>
 					    <li class="list-group-item details-prop"><span class="glyphicon glyphicon-ok services-icon" aria-hidden="true"></span>Duis aute irure dolor in reprehenderit.</li>
 					    <li class="list-group-item details-prop"><span class="glyphicon glyphicon-ok services-icon" aria-hidden="true"></span>Excepteur sint occaecat cupidatat.</li>
@@ -110,7 +110,7 @@
 					    <li class="list-group-item details-prop"><span class="glyphicon glyphicon-ok services-icon" aria-hidden="true"></span>Dolor consectetur elit. </li>
 					    <li class="list-group-item details-prop"><span class="glyphicon glyphicon-ok services-icon" aria-hidden="true"></span>Voluptatem accusantium doloremque. </li>
 					 </ul>
-						 <button type="button" class="btn btn-default btn-lg post-viewmap" href="#">
+						 <button type="button" class="btn btn-default btn-lg post-viewmap section-property-map" href="#">
 						  <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> View Google Map
 						</button>
 

@@ -15,6 +15,10 @@ PROPERTIES.PHP
 > col-md-5 class : properties-col-left
 > col-md-6 class : properties-col-right
 
+<div class="copy properties-justify">
+<div class="post-img properties-img">
+<div class="post-block post-item properties-item">
+
 
 AVAILABILITY.PHP
 
@@ -39,3 +43,26 @@ MEETING.PHP
 <div class="media-par section-meeting-par">
 <div class="post-img meeting-img">
 <div class="row meeting-row">
+
+AVAIL.PHP
+
+<section class="section skin-white section-list section-bottom-line skin-gap section-avail">
+<div class="copy section-avail-copy">
+<p class="section-avail-copy-par">
+<span class="avail-price">
+<div class="post-img avail-img avail-img">
+<h2 class="section-title avail-title">Check Availability</h2>
+
+LOCATIONS.PHP
+
+<section class="section skin-gray section-locations skin-gap section-locations">
+
+PROPERTIES-SINGLE 
+
+<p class="col-md-4-par section-property-par-one">
+<div class="col-md-4 single-properties-next">
+<ul class="list-group single-properties-list">
+<button type="button" class="btn btn-default btn-lg post-viewmap section-property-map=" href="#">
+<div class="tab-content section-single-content">
+
+
