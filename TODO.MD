@@ -75,3 +75,8 @@ FOOTER.PHP
 
 <p class="footer-phone">Phone: +63032 238 6590</p>
 
+
+HEADER.PHP
+
+<li class="disabled nav-phone">+63 32.238.6592</li>
+
