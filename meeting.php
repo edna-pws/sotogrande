@@ -9,15 +9,15 @@
 	<div class="container">
 		<section class="section skin-white section-list meeting-with-space">
 		<div class="post-block post-item section-meeting-list">
-				<div class="row">
+				<div class="row meeting-row">
 					<div class="col-md-5 section-media-space">
-						<div class="post-img">
+						<div class="post-img meeting-img">
 							<img src="images/img6.jpg" alt="">
 						</div>
 					</div>
 					<div class="col-md-7 media meeting-col">
 						<h4 class="media-heading">Grand Coral Ballroom</h4>
-						<div class="media-par">
+						<div class="media-par section-meeting-par">
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
 								commodo consequat.
@@ -33,15 +33,15 @@
 		</section>
 		<section class="section skin-white section-list meeting-no-space">
 		<div class="post-block post-item meeting-no-border section-meeting-list-two">
-				<div class="row">
+				<div class="row meeting-row">
 					<div class="col-md-5 section-media-space">
-						<div class="post-img">
+						<div class="post-img meeting-img">
 							<img src="images/banquet.jpg" alt="">
 						</div>
 					</div>
 					<div class="col-md-7 media meeting-col">
 						<h4 class="media-heading">banquet foods &amp; arrangements</h4>
-						<div class="media-par">
+						<div class="media-par section-meeting-par">
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
 								commodo consequat.

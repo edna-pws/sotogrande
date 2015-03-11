@@ -36,3 +36,6 @@ MEETING.PHP
 <div class="post-block post-item section-meeting-list">
 <div class="post-block post-item meeting-no-border section-meeting-list-two">
 <img src="images/banquet.jpg" alt="">
+<div class="media-par section-meeting-par">
+<div class="post-img meeting-img">
+<div class="row meeting-row">
