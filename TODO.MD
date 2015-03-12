@@ -80,3 +80,15 @@ HEADER.PHP
 
 <li class="disabled nav-phone">+63 32.238.6592</li>
 
+ROOMS.PHP
+
+<div class="row section-mainrooms-row">
+<section class="banner banner-sm section-banner section-rooms">
+ <div class="col-xs-6 col-md-3 mainrooms-max mainrooms-center">
+<img class="mainrooms-bg-img" src="images/placeholder/soto-rooms_12.jpg" alt="rooms">
+
+
+ROOMS-SINGLE.PHP
+
+<ul class="list-group rooms-details-list">
+

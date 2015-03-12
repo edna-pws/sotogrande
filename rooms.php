@@ -1,5 +1,5 @@
 <?php include_once 'header.php'; ?>
-<section class="banner banner-sm section-banner">
+<section class="banner banner-sm section-banner section-rooms">
 	<div class="banner-sub">
 		<h3 class="banner-subtitle main-rooms">rooms</h3>
 	</div>
@@ -18,10 +18,10 @@
 			</p>
 		</div>
 		<div class="mainrooms-list">
-			<div class="row">
+			<div class="row section-mainrooms-row">
 			  <div class="col-xs-6 col-md-3 mainrooms-max">
 			    <a href="#" class="thumbnail mainrooms-bg">
-			      <img src="images/placeholder/soto-rooms_03.jpg" alt="rooms">
+			      <img class="mainrooms-bg-img" src="images/placeholder/soto-rooms_03.jpg" alt="rooms">
 			      <p class="rooms-caption">classic rooms</p>
 			    </a>
 			  </div>
@@ -31,14 +31,14 @@
 			      <p class="rooms-caption">superior rooms</p>
 			    </a>
 			  </div>
-			  <div class="col-xs-6 col-md-3 mainrooms-max">
+			  <div class="col-xs-6 col-md-3 mainrooms-max mainrooms-center">
 			    <a href="#" class="thumbnail mainrooms-bg">
 			      <img src="images/placeholder/soto-rooms_07.jpg" alt="rooms">
 			      <p class="rooms-caption">superior rooms</p>
 			    </a>
 			  </div>
 			</div>
-			<div class="row">
+			<div class="row section-mainrooms-row">
 			  <div class="col-xs-6 col-md-3 mainrooms-max">
 			    <a href="#" class="thumbnail mainrooms-bg">
 			      <img src="images/placeholder/soto-rooms_12.jpg" alt="rooms">
@@ -51,14 +51,14 @@
 			      <p class="rooms-caption">ellerman house suites</p>
 			    </a>
 			  </div>
-			  <div class="col-xs-6 col-md-3 mainrooms-max">
+			  <div class="col-xs-6 col-md-3 mainrooms-max mainrooms-center">
 			    <a href="#" class="thumbnail mainrooms-bg">
 			      <img src="images/placeholder/soto-rooms_14.jpg" alt="rooms">
 			      <p class="rooms-caption">delux rooms</p>
 			    </a>
 			  </div>
 			</div>
-			<div class="row">
+			<div class="row section-mainrooms-row">
 			  <div class="col-xs-6 col-md-3 mainrooms-max">
 			    <a href="#" class="thumbnail mainrooms-bg">
 			      <img src="images/placeholder/soto-rooms_19.jpg" alt="rooms">
@@ -71,7 +71,7 @@
 			      <p class="rooms-caption">classic rooms</p>
 			    </a>
 			  </div>
-			  <div class="col-xs-6 col-md-3 mainrooms-max">
+			   <div class="col-xs-6 col-md-3 mainrooms-max mainrooms-center">
 			    <a href="#" class="thumbnail mainrooms-bg">
 			      <img src="images/placeholder/soto-rooms_22.jpg" alt="rooms">
 			      <p class="rooms-caption">superior rooms</p>

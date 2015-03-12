@@ -37,7 +37,7 @@
 
 <div class="gap gap6em"></div>
 
-<section class="section skin-white section-rooms section-bottom-line">
+<section class="section skin-white section-rooms-single section-bottom-line">
 	<div class="container-fluid section-rooms-container">
 		<div class="row">
 			<div class="col-md-7 skin-white-services">
@@ -69,9 +69,9 @@
 					</div>
 			</div>
 
-			<div class="col-md-4">
+			<div class="col-md-4 single-left-col">
 				<h4 class="title-bold rooms-details">ROOM DETAILS</h4>
-					 <ul class="list-group">
+					 <ul class="list-group rooms-details-list">
 					    <li class="list-group-item details-prop"><span class="glyphicon glyphicon-ok services-icon" aria-hidden="true"></span>Lorem ipsum dolor sit amet.</li>
 					    <li class="list-group-item details-prop"><span class="glyphicon glyphicon-ok services-icon" aria-hidden="true"></span>Dolor consectetur elit.</li>
 					    <li class="list-group-item details-prop"><span class="glyphicon glyphicon-ok services-icon" aria-hidden="true"></span>Duis aute irure dolor in reprehenderit.</li>

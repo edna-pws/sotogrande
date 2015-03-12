@@ -190,7 +190,7 @@
 }
 
 .custom-select {
-	width: 23% !important;
+	width: 23%;
 	float: left;
 	.form-control {
 		border: 0;
@@ -280,7 +280,7 @@
 	}
 }
 
-@media (max-width: 768px) and (min-width: 668px) {
+@media (max-width: 768px) and (min-width: 737px) {
 	.nav-bar-width-wrapper {
 		width: 82% !important;
   		margin: 0px !important;
@@ -292,7 +292,22 @@
 	}
 }
 
+@media (max-width: 736px) and (min-width: 668px) {
+	.nav-bar-width-wrapper {
+		width: 81% !important;
+  		margin: 0px !important;
+  		padding-left: 15px !important;
+	}
+	.navbar-small-responsive {
+		margin-top: 50px;
+ 		padding: 0px;
+	}
+}
+
 @media (max-width: 667px) and (min-width: 601px) {
+	.navbar-fixed-top {
+		position: relative;
+	}
 	.navbar-small-responsive {
 		margin-top: 50px;
  		padding: 0px;
@@ -301,16 +316,170 @@
 		position: relative;
 		bottom: 6px;
 	}
+	.form-check {
+		position: relative;
+		left: 181px;
+	}
+	.form-desktop {
+		margin-left: 50px;
+	}
+	.navbar-form-wrapper .form-group {
+		margin: 5px 0px;
+	}
+	.section-carousel {
+		margin-top: 0px;
+	}
 }
 
 @media (max-width: 600px) and (min-width: 569px) {
-	.nav-phone {
-		bottom: 6px;
+	.navbar-fixed-top {
+		position: relative;
 	}
 	.navbar-small-responsive {
-		margin-top: 40px !important;
+		margin-top: 50px;
+ 		padding: 0px;
+	}
+	.form-check {
+		position: relative;
+		left: 153px;
+	}
+	.form-desktop {
+		margin-left: 50px;
+	}
+	.navbar-form-wrapper .form-group {
+		margin: 5px 0px;
+	}
+	.section-carousel {
+		margin-top: 0px;
 	}
 }
+
+@media (max-width: 568px) and (min-width: 415px) {
+	.navbar-fixed-top {
+		position: relative;
+	}
+	.section-carousel {
+		margin-top: 0px;
+	}
+	.form-check {
+		position: relative;
+		left: 153px;
+	}
+	.form-desktop {
+		margin-left: 50px;
+	}
+	.navbar-form-wrapper .form-group {
+		margin: 3px 0px;
+	}
+	.nav-bar-width-wrapper {
+  		width: 100% !important;
+	}
+}
+
+
+@media (max-width: 414px) and (min-width: 385px) {
+	.carousel {
+		margin-top: 196px;
+	}
+	.form-desktop {
+		margin-left: 10px;
+	}
+	.navbar-form-wrapper .form-group {
+		margin: 3px 0px;
+	}
+	.nav-bar-width-wrapper {
+  		width: 100% !important;
+	}
+	.form-date {
+		width: 49% !important;;
+	}
+	.custom-select {
+		width: 49% !important;
+	}
+	.form-check {
+		position: relative;
+		left: 115px;
+	}
+}
+
+@media (max-width: 384px) and (min-width: 376px) {
+	.carousel {
+		margin-top: 196px;
+	}
+	.form-desktop {
+		margin-left: 10px;
+	}
+	.form-check {
+		position: relative;
+		left: 91px;
+	}
+	.navbar-form-wrapper .form-group {
+		margin: 3px 0px;
+	}
+	.nav-bar-width-wrapper {
+  		width: 100% !important;
+	}
+	.form-date {
+		width: 49% !important;;
+	}
+	.custom-select {
+		width: 49% !important;
+	}
+}
+
+@media (max-width: 375px) and (min-width: 321px) {
+	.carousel {
+		margin-top: 196px;
+	}
+	.form-check {
+		position: relative;
+		left: 91px;
+	}
+	.form-desktop {
+		margin-left: 10px;
+	}
+	.navbar-form-wrapper .form-group {
+		margin: 3px 0px;
+	}
+	.nav-bar-width-wrapper {
+  		width: 100% !important;
+	}
+	.form-date {
+		width: 49% !important;;
+	}
+	.custom-select {
+		width: 49% !important;
+	}
+}
+
+@media (max-width: 320px) {
+	.form-check {
+		position: relative;
+		left: 65px;
+	}
+	.form-desktop {
+		margin-left: 0px;
+	}
+	.navbar-form-wrapper .form-group {
+		margin: 3px 0px;
+		width: 49% !important;
+	}
+	.nav-bar-width-wrapper {
+  		width: 100% !important;
+  		padding-left: 3px !important;
+	}
+	.form-date {
+		width: 49% !important;
+	}
+	.custom-select {
+		width: 49% !important;
+	}
+	.nav-bar-width {
+		height: 144px;
+	}
+}
+
+
 
 @media (max-width: 568px) and (min-width: 415px) {
 	.nav-phone {
@@ -343,6 +512,9 @@
 }
 
 @media (max-width: 320px) {
+	.section-carousel {
+		margin-top: 195px;
+	}
 	.nav-phone {
 		bottom: 6px;
 		left: 5%;
