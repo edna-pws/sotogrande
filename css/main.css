@@ -7473,11 +7473,6 @@ dd.p-0 {
   margin-right: 0px !important;
   height: 35px !important;
 }
-@media (max-width: 1024px) {
-  .dropdown-rooms {
-    color: #e3e3e3 !important;
-  }
-}
 @media (max-width: 600px) and (min-width: 569px) {
   .map-controls {
     width: 209px;
@@ -10416,9 +10411,6 @@ dd.p-0 {
 .dropdow-mega-menu .dropdown.dropdown-fw .dropdown-menu {
   left: 0;
   right: 0;
-}
-.dropdown-rooms {
-  color: #e3e3e3;
 }
 .dropdown-menu-mega {
   margin-top: -82px !important;
