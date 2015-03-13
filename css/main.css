@@ -10412,6 +10412,9 @@ dd.p-0 {
   left: 0;
   right: 0;
 }
+.dropdown-rooms {
+  color: #e3e3e3;
+}
 .dropdown-menu-mega {
   margin-top: -82px !important;
   width: 100% !important;
@@ -10445,7 +10448,7 @@ dd.p-0 {
   .dropdown-menu-mega {
     background-color: #26282b !important;
     height: 200px;
-    width: 90% !important;
+    width: 100% !important;
     position: relative;
     margin-top: 9px !important;
   }
@@ -10459,8 +10462,22 @@ dd.p-0 {
   .dropdown-responsive-right {
     width: 50%;
   }
+  .dropdown-responsive-left-one {
+    width: 50%;
+  }
+  .dropdown-responsive-left-two {
+    width: 50%;
+  }
   .dropdown-content .list-inline > li a {
     font-size: 15px;
+  }
+  .dropdown.open {
+    width: 100%;
+    background-color: #26282b !important;
+  }
+  .dropdown-content {
+    padding-right: 0;
+    padding-left: 0;
   }
 }
 .dropdown-content .list-inline > li a {
