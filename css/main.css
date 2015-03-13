@@ -8859,7 +8859,7 @@ dd.p-0 {
     min-width: 358px !important;
   }
 }
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .meeting-img {
     width: 294px !important;
     min-width: 295px !important;
@@ -10439,6 +10439,7 @@ dd.p-0 {
   }
   .dropdown-content .list-inline > li a {
     font-size: 15px;
+    font-weight: normal;
   }
 }
 @media (max-width: 768px) {
