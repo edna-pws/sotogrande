@@ -7473,6 +7473,11 @@ dd.p-0 {
   margin-right: 0px !important;
   height: 35px !important;
 }
+@media (max-width: 1024px) {
+  .dropdown-rooms {
+    color: #e3e3e3 !important;
+  }
+}
 @media (max-width: 600px) and (min-width: 569px) {
   .map-controls {
     width: 209px;
@@ -10449,7 +10454,7 @@ dd.p-0 {
     background-color: #26282b !important;
     width: 100% !important;
     margin-bottom: 23px;
-    margin-top: 0px !important;
+    margin-top: 28px !important;
   }
   .dropdown-responsive {
     margin-left: 0;
@@ -10486,47 +10491,4 @@ dd.p-0 {
   .dropdow-mega-menu .dropdown-content {
     padding: 0;
   }
-}
-.dropdown-content .list-inline > li a {
-  color: #fff;
-  font-size: 12px;
-  display: inline-block;
-  text-transform: initial;
-  padding-right: 10px;
-  font-weight: lighter !important;
-  text-decoration: none;
-  transition: all 0.5s;
-}
-.dropdown-content .list-inline > li a:hover {
-  color: #4a8666;
-}
-.dropdown-content img {
-  border: 2px solid #fff;
-}
-.dropdown-content h4 {
-  margin-left: -6px !important;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-.dropdown-content .list-inline > li {
-  min-width: 50px !important;
-}
-.dropdown-content .list-inline.list-width > li {
-  min-width: 110px !important;
-}
-.list-width {
-  width: 70% !important;
-}
-.dropdown:hover .dropdown-menu {
-  display: none;
-}
-.dropdown.open .dropdown-menu {
-  display: block;
-}
-.dropdown.open > a {
-  background-color: #fff !important;
-  color: #28553d !important;
-}
-.nav.navbar-nav a:active {
-  color: #28553d !important;
 }
