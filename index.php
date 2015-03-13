@@ -30,16 +30,7 @@
 	      	</div>
 	    </div>
 	     <div class="item">
-	      <div class="banner-img">
-	      	<img src="images/banner-two.jpg" alt="...">
-	      </div>
-	       <div class="banner-caption">
-	      		<img src="images/title-sm.png" alt="">
-	      		<h1 class="banner-title title-thin">SotoGrande</h1>
-	      		<div class="banner-sub">
-	      			<h3 class="banner-subtitle">hotel &amp; resort</h3>
-	      		</div>
-	      	</div>
+	      <iframe width="100%" height="100%" src="//www.youtube.com/embed/-w-58hQ9dLk?controls=0" frameborder="0" allowfullscreen=""></iframe>
 	    </div>
 
 	  </div>
