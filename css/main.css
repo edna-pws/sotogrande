@@ -7463,10 +7463,17 @@ dd.p-0 {
 .navbar .navbar-nav a {
   font-weight: bold;
 }
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
   .navbar {
     margin: 0px;
     font-size: 11px;
+  }
+  .navbar-toggle {
+    display: none;
+  }
+  .navbar-brand {
+    width: 26%;
+    float: left;
   }
 }
 .navbar-fixed-top {
@@ -8030,7 +8037,7 @@ dd.p-0 {
 }
 .post-body-title {
   font-family: 'Proxima Nova Bold';
-  font-size: 32px;
+  font-size: 25px;
   margin-top: 33px;
   margin-bottom: 25px;
   color: #3e3e3e;
@@ -8038,6 +8045,9 @@ dd.p-0 {
 @media (max-width: 1024px) {
   .post-body-title {
     font-size: 23px;
+  }
+  #post-title-new {
+    font-size: 14px;
   }
 }
 .post-wrapper-img {

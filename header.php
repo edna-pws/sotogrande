@@ -18,7 +18,7 @@
 
 <body class="home">
 
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar dropdow-mega-menu navbar-default navbar-fixed-top">
 
     <div class="navbar-top nav-responsive">
 	    <div class="container-fluid">
