@@ -10449,6 +10449,7 @@ dd.p-0 {
     background-color: #26282b !important;
     width: 100% !important;
     margin-bottom: 23px;
+    margin-top: 0px !important;
   }
   .dropdown-responsive {
     margin-left: 0;
