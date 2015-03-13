@@ -1,0 +1,103 @@
+
+.dropdow-mega-menu {
+
+  // reset positions 
+  .nav, .collapse, .dropup, .dropdown {
+    position: static;
+  }  
+
+  // propagate menu position under container for fw navbars
+  .container {
+    position: relative;
+  }
+
+  // by default aligns menu to left
+  .dropdown-menu {
+    left: auto;
+  }
+  
+  // Content with padding 
+  .dropdown-content {
+    padding: 20px 30px;
+  }
+
+  // Fullwidth menu
+  .dropdown.dropdown-fw .dropdown-menu {
+    left: 0; right: 0;
+  }
+
+}
+
+.dropdown-menu-mega {
+  margin-top: -82px !important;
+  width: 100% !important;
+  left: 0px !important;
+  background-color: rgba(34, 34, 37, 0.9);
+  color: #fff;
+}
+
+.dropdown-content .list-inline > li a {
+  color: #fff;
+  font-size: 12px;
+  display: inline-block;
+  text-transform: initial;
+  padding-right: 10px;
+  font-weight: lighter !important;
+  text-decoration: none;
+  transition: all 0.5s;
+  &:hover {
+    color: @brand-tertiary;
+  }
+}
+
+.dropdown-content {
+  img {
+    border: 2px solid #fff;
+  }
+
+  h4 {
+    margin-left: -6px !important;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .list-inline {
+    & > li {
+      min-width: 50px !important;
+    }
+
+    &.list-width > li{
+      min-width: 110px !important
+    }
+  }
+}
+
+
+.list-width {
+  width: 70% !important;
+}
+
+.dropdown {
+  &:hover {
+
+    & .dropdown-menu {
+      display: none;
+    }
+
+  }
+  &.open {
+
+    & .dropdown-menu {
+      display: block;
+    }
+
+    & > a {
+      background-color: #fff !important;
+      color: @brand-base !important;
+    }
+  }
+}
+   
+.nav.navbar-nav a:active {
+  color: @brand-base !important;
+}

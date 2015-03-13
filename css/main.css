@@ -6528,6 +6528,11 @@ a:hover {
   background-color: #4a8666 !important;
   border: #eaecec 2px solid;
 }
+@media (max-width: 1024px) {
+  .body-button {
+    padding-top: 3px;
+  }
+}
 .copy {
   margin: 1.5em 0 2em;
   font-size: 16px;
@@ -7471,9 +7476,13 @@ dd.p-0 {
   .navbar-toggle {
     display: none;
   }
-  .navbar-brand {
+  .navbar-header {
     width: 26%;
     float: left;
+  }
+  .navbar-small-responsive {
+    width: 53%;
+    float: right;
   }
 }
 .navbar-fixed-top {
@@ -8047,6 +8056,9 @@ dd.p-0 {
     font-size: 23px;
   }
   #post-title-new {
+    font-size: 14px;
+  }
+  .body-par-new {
     font-size: 14px;
   }
 }
