@@ -18,9 +18,3 @@ AVAIL.PHP
 PROPERTIES-SINGLE 
 
 <button type="button" class="btn btn-default btn-lg post-viewmap section-property-map" href="#">
-
-
-HOME.PHP 
-
-<p class="body-par-new"> 
-<div class="post-actions body-button">
